@@ -25,9 +25,9 @@
 						<li class="normal-item-pro">
 							<a href="index.php">Home</a>
 						</li>
-						<li class="normal-item-pro">
+						<!--<li class="normal-item-pro">
 							<a href="new_arrivals.php">New Arrivals</a>
-							<!-- Sub-Menu Example >
+							 Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
 									<a href="#!">Sub-menu item 1</a>
@@ -65,9 +65,9 @@
 					<li>
 						<a href="index.php">Home</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="new_arrivals.php">New Arrivals</a>
-						<!-- Mobile Sub-Menu Example >
+						 Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
 								<a href="#!">Sub-menu item 1</a>

@@ -30,9 +30,9 @@
 							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
 
-						<!--<li class="normal-item-pro">
-							<a href="faqs.php">Terms of Use</a>
-						</li> -->
+						<li class="normal-item-pro">
+							<a href="faqs.php">FAQs</a>
+						</li> 
 					</ul>
 				</nav>
 				
@@ -52,9 +52,9 @@
 					<li>
 						<a href="index.php">Home</a>
 					</li>
-					<li>
-						<a href="new_arrivals.php">New Arrivals</a>
-						<!-- Mobile Sub-Menu Example >
+						<!--<li>
+						<a href="dashboard-home.php">New Releases</a>
+					 Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
 								<a href="#!">Sub-menu item 1</a>
@@ -67,34 +67,21 @@
 							</li>
 						</ul>
 						< End Mobile Sub-Menu Example -->
-				<!--	</li>
-					<li>
-						<a href="signup-step1.html">TV Series</a>
 					</li>
-
 					<li>
-						<a href="signup-step1.html">Movies</a>
+						<a href="signup-step1.php">Pricing Plans</a>
 					</li>
-
 					<li>
-						<a href="signup-step1.html">Documentary</a>
+						<a href="faqs.php">FAQs</a>
 					</li>
-
-					<li>
-						<a href="signup-step1.html">Pricing Plans</a>
-					</li>
-
-					<li>
-						<a href="faqs.html">Terms of Use</a>
-					</li> -->
 				</ul>
 				<div class="clearfix"></div>
-			<a href="signup-step1.php"><button class="btn btn-header-pro noselect" role="button">Sign Up</button></a>
-				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
-			
+
+				<button class="btn btn-mobile-pro btn-green-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
+				<a href="signup-step1.php"><button class="btn btn-mobile-pro btn-green-pro noselect" role="button">Sign Up</button></a>
+
 			</nav>
 		</header>
-		
 		
 		
 		
@@ -223,7 +210,7 @@
 									<li>20 Movies and Shows</li>
 									<li>Download Available</li>
 								</ul>
-								<p><a class="btn" href="signup-step2.html" role="button">Choose Plan</a></p>
+								<p><a class="btn" href="signup-step2.php" role="button">Choose Plan</a></p>
 							</div><!-- close .pricing-table-col -->
 						</div><!-- close .col-md-12 -->
 						<div class="col-md">
@@ -236,7 +223,7 @@
 									<li>70 Movies and Shows</li>
 									<li>Download Available</li>
 								</ul>
-								<p><a class="btn btn-green-pro" href="signup-step2.html" role="button">Choose Plan</a></p>
+								<p><a class="btn btn-green-pro" href="signup-step2.php" role="button">Choose Plan</a></p>
 							</div><!-- close .pricing-table-col -->
 						</div><!-- close .col-md-12 -->
 						<div class="col-md">
@@ -249,7 +236,7 @@
 									<li>Unlimited Movies and Shows</li>
 									<li>Download Available</li>
 								</ul>
-								<p><a class="btn" href="signup-step2.html" role="button">Choose Plan</a></p>
+								<p><a class="btn" href="signup-step2.php" role="button">Choose Plan</a></p>
 							</div><!-- close .pricing-table-col -->
 						</div><!-- close .col-md-12 -->
 					</div><!-- close .row -->
@@ -334,7 +321,7 @@
 
  		      </div><!-- close .modal-body -->
 		
-			 <a class="not-a-member-pro" href="signup-step2.html">Not a member? <span>Join Today!</span></a>
+			 <a class="not-a-member-pro" href="signup-step2.php">Not a member? <span>Join Today!</span></a>
 		    </div><!-- close .modal-content -->
 		  </div><!-- close .modal-dialog -->
 		</div><!-- close .modal -->

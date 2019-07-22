@@ -299,7 +299,7 @@
         <a class="nav-link" href="thriller.php">Thrillers</a>
       </li>
 	  <li class="nav-item ">
-        <a class="nav-link" href="sci_fi.phpSci-fi.php</a>
+        <a class="nav-link" href="Sci-fi.php">Sci-Fi</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="western.php">Western</a>
