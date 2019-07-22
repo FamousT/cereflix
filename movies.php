@@ -42,7 +42,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">Animation
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -186,9 +186,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="new_arrivals.php">
+	              <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
+	                Animation
 	              </a>
 	            </li>
 	            <li>
@@ -238,9 +238,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="new_arrivals.php">
+                <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  Animation
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -262,23 +262,22 @@
 		  <ul class="carousel-indicators">
 			<li data-target="#demo" data-slide-to="0" class="active"></li>
 			<li data-target="#demo" data-slide-to="1"></li>
-			<li data-target="#demo" data-slide-to="2"></li>
 		  </ul>
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
-			  <a href="https://www.youtube.com/watch?v=v45GprEyM7U"><img src="images/stolen_bible2.jpg" alt="Los Angeles" width="1100" height="500"></a>
-			  <div class="carousel-caption" style="margin-bottom:120px;">
-			  <a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-				<h3>Los Angeles</h3>
-				<p>We had such a great time in LA!</p>
+			  <a href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><img src="images/lion_heart.jpg" width="1100" height="500"></a>
+			  <div class="carousel-caption" style="margin-bottom:10px;">
+			  <a class="progression" href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><i class="fas fa-play"></i></a>
+				<p><font color="white"> <font size= "14">Lion Heart</font></font></p>
+				<p>Lionheart is a 2018 Nigerian drama film produced by Chinny Onwugbenu and directed by Genevieve Nnaji. It stars Pete Edochie, Genevieve Nnaji, and Nkem Owoh. It was acquired by Netflix on 7 September 2018, making it the first Netflix original film produced in Nigeria.</p>
 			  </div>   
 			</div>
 			<div class="carousel-item">
-			  <a href="https://www.youtube.com/watch?v=PEC5ygPbUaA"><img src="images/busy.jpg" alt="Chicago" width="1100" height="500"></a>
-			  <div class="carousel-caption" style="margin-bottom:120px;>
-				<a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-				<h3>Los Angeles</h3>
-				<p>We had such a great time in LA!</p>
+			  <a href="https://drive.google.com/open?id=15h-ZDcA4-RphX-xYGtEkEDyv7hsGtgWn"><img src="images/lion_heart3.jpg" width="1100" height="500"></a>
+			  <div class="carousel-caption" style="margin-bottom:10px";>
+				<a class="progression" href="https://drive.google.com/open?id=15h-ZDcA4-RphX-xYGtEkEDyv7hsGtgWn"><i class="fas fa-play"></i></a>
+				<p><font color="white"> <font size= "14">Lion Heart</font></font></p>
+				<p>Lionheart is a 2018 Nigerian drama film produced by Chinny Onwugbenu and directed by Genevieve Nnaji. It stars Pete Edochie, Genevieve Nnaji, and Nkem Owoh. It was acquired by Netflix on 7 September 2018, making it the first Netflix original film produced in Nigeria.</p>
 			  </div>  
 			</div>
 		  </div>
@@ -349,9 +348,9 @@
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/madam_joy.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/madam_joy.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Madam Joy</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV">Madam Joy</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -371,9 +370,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1PXFRdeskrTYIWssIByYcsKd019RVh5W5/view?usp=sharing"><img src="images/things_apart.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Take Heed</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Things fall Apart</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -394,9 +393,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/stolen_bible.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1NXN8SH3Z4-bdH5d-qJxKrFfoJFNYSkiM"><img src="images/figurine.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Stolen Bible</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">figurine</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -416,9 +415,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/sunday_dagboru.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1d9spqIz6OXk9R5AC_7tMvOmPa3BUjB9V"><img src="images/saworoide.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Sunday Dagboru</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Saworoide</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -439,9 +438,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/nneka.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1LHSULBae4fy31vtul0KaHGIXI4VzcveQ"><img src="images/blood_money.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Nneka</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Blood Money</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -461,7 +460,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/koto_aye.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1ZXWvKlQfH1p8FR_rjunHp_YIcwxjk2OF"><img src="images/koto_aye.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Koto Aye</a></h6>
 							      <div
@@ -484,9 +483,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/agbara_nla.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1uwPNPrCA0or44JKTQdy-QN2p7utiL07m"><img src="images/agbara_nla.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Agbara Nle (A.K.A AYAMATANGA)</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Agbara Nla (A.K.A AYAMATANGA)</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -506,9 +505,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/osuofia_jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><img src="images/living.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Osuofia and Jenifer</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Living in Bondage</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -528,9 +527,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/jelili.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1hv8wWRQoqo-6Bi6c7lU4mlx90qfsQs9Z"><img src="images/lagos_benin.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jelili</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Lagos to Benin</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -550,9 +549,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/esin_ajoji.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=14Oy0uKkXaMcnt37K8CylJOPnVqpmWAA5"><img src="images/sikiratu_sindodo.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Esin Ajoji (The Strange Religion)</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Sikiratu Sindodo</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -573,9 +572,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/the_pride.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/akin_pawpaw4.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">The Pride</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Junior Boys</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -595,9 +594,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/akin_pawpaw.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Akin and Pawpaw</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX">Take Heed</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -621,10 +620,10 @@
 				<ul class="page-numbers">
 					<li><a class="previous page-numbers" href="#!"><i class="fas fa-chevron-left"></i></a></li>
 					<li><span class="page-numbers current">1</span></li>
-					<li><a class="page-numbers" href="#!">2</a></li>
+					<!-- <li><a class="page-numbers" href="#!">2</a></li>
 					<li><a class="page-numbers" href="#!">3</a></li>
 					<li><a class="page-numbers" href="#!">4</a></li>
-					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li>
+					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li> -->
 				</ul>
 				
 						

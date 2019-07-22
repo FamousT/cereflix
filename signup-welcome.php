@@ -23,10 +23,10 @@
 				<nav id="site-navigation-pro">
 					<ul class="sf-menu">
 						<li class="normal-item-pro">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li class="normal-item-pro">
-							<a href="dashboard-home.html">New Releases</a>
+							<a href="new_arrivals.php">New Arrivals</a>
 							<!-- Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
@@ -42,15 +42,15 @@
 							< End Sub-Menu example -->
 						</li>
 						<li class="normal-item-pro current-menu-item">
-							<a href="signup-step1.html">Pricing Plans</a>
+							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
 						<li class="normal-item-pro">
-							<a href="faqs.html">FAQs</a>
+							<a href="faqs.php">FAQs</a>
 						</li>
 					</ul>
 				</nav>
 				
-				<a href="signup-step1.html" class="btn btn-header-pro btn-green-pro noselect">Start a Free Trial</a>
+				<a href="signup-step1.php" class="btn btn-header-pro btn-green-pro noselect">Start a Free Trial</a>
 				
 				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
 				
@@ -63,10 +63,10 @@
 			
 				<ul id="mobile-menu-pro">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="dashboard-home.html">New Releases</a>
+						<a href="new_arrivals.php">New Arrivals</a>
 						<!-- Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
@@ -85,7 +85,7 @@
 						<a href="signup-step1.php">Pricing Plans</a>
 					</li>
 					<li>
-						<a href="faqs.html">FAQs</a>
+						<a href="faqs.php">FAQs</a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -126,8 +126,7 @@
 								<div class="clearfix"></div>
 								
 								<div class="registration-step-final-footer">
-									<a href="tv_series.php" class="btn btn-green-pro">Start Watching</a>
-									<a href="#!" class="btn">Verify Your Email</a>
+									<a href="action.php" class="btn btn-green-pro">Start Watching</a>
 								</div>
 								
 							</div><!-- close .registration-step-final-padding -->

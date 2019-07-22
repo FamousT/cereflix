@@ -23,10 +23,10 @@
 				<nav id="site-navigation-pro">
 					<ul class="sf-menu">
 						<li class="normal-item-pro">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li class="normal-item-pro">
-							<a href="dashboard-home.html">New Releases</a>
+							<a href="new_arrivals.php">New Arrivals</a>
 							<!-- Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
@@ -42,15 +42,15 @@
 							< End Sub-Menu example -->
 						</li>
 						<li class="normal-item-pro current-menu-item">
-							<a href="signup-step1.html">Pricing Plans</a>
+							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
 						<li class="normal-item-pro">
-							<a href="faqs.html">FAQs</a>
+							<a href="faqs.php">FAQs</a>
 						</li>
 					</ul>
 				</nav>
 				
-				<a href="signup-step1.html" class="btn btn-header-pro btn-green-pro noselect">Start a Free Trial</a>
+				<a href="signup-step1.php" class="btn btn-header-pro btn-green-pro noselect">Start a Free Trial</a>
 				
 				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
 				
@@ -63,10 +63,10 @@
 			
 				<ul id="mobile-menu-pro">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="dashboard-home.html">New Releases</a>
+						<a href="new_arrivals.php">New Arrivals</a>
 						<!-- Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
@@ -82,10 +82,10 @@
 						< End Mobile Sub-Menu Example -->
 					</li>
 					<li>
-						<a href="signup-step1.html">Pricing Plans</a>
+						<a href="signup-step1.php">Pricing Plans</a>
 					</li>
 					<li>
-						<a href="faqs.html">FAQs</a>
+						<a href="faqs.php">FAQs</a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -108,28 +108,28 @@
 			<div class="container">
 				<ul id="registration-steps-pro">
 					<li>
-						<a href="signup-step1.html">
+						<a href="signup-step1.php">
 							<div class="registration-step-circle-icon">01</div>
 							<div class="registration-step-number">Step 1</div>
 							<h5 class="registration-step-title">Choose your plan</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step2.html">
+						<a href="signup-step2.php">
 							<div class="registration-step-circle-icon">02</div>
 							<div class="registration-step-number">Step 2</div>
 							<h5 class="registration-step-title">Create your account</h5>
 						</a>
 					</li>
 					<li class="current-menu-item">
-						<a href="signup-step3.html">
+						<a href="signup-step3.php">
 							<div class="registration-step-circle-icon">03</div>
 							<div class="registration-step-number">Step 3</div>
 							<h5 class="registration-step-title">Billing information</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step4.html">
+						<a href="signup-step4.php">
 							<div class="registration-step-circle-icon">04</div>
 							<div class="registration-step-number">Step 4</div>
 							<h5 class="registration-step-title">Welcome to Cereflix!</h5>
@@ -215,7 +215,7 @@
 													<h3>Premium: <span class="total">₦5000</span><span class="duration">/month</span></h3>
 												 </div><!-- close .billing-plan-container -->
 												 
-	    			  							 <a href="signup-step4.html" class="btn btn-green-pro">Sign Up</a>
+	    			  							 <a href="signup-step4.php" class="btn btn-green-pro">Sign Up</a>
 		  										 <div class="clearfix"></div>
 	    			  						 </div>
 	    			  					 </form>
@@ -266,24 +266,26 @@
 				 <div class="modal-body-pro social-login-modal-body-pro">
 					 
 					 <div class="registration-social-login-container">
-						 <form>
+						 <form action="login.php" method="POST">
 							 <div class="form-group">
-								 <input type="text" class="form-control" id="username" placeholder="Username">
+								 <input type="text" class="form-control" name="username" placeholder="Username">
 							 </div>
 							 <div class="form-group">
-								 <input type="password" class="form-control" id="password" placeholder="Password">
+								 <input type="password" class="form-control" name="password" placeholder="Password">
 							 </div>
-							 <div class="form-group">
-								 <button type="button" class="btn btn-green-pro btn-display-block">Sign In</button>
-							 </div>
+
+ 							 <div class="form-group">
+							<button type="submit" name="login" class="btn btn-primary">Sign in</button>
+							</div>
 							 <div class="container-fluid">
 								 <div class="row no-gutters">
 							 		<div class="col checkbox-remember-pro"><input type="checkbox" id="checkbox-remember"><label for="checkbox-remember" class="col-form-label">Remember me</label></div>
 									<div class="col forgot-your-password"><a href="#!">Forgot your password?</a></div>
 								</div>
 							</div><!-- close .container-fluid -->
-						
+				
 						 </form>
+			 
 					 
 						 <div class="registration-social-login-or">or</div>
 						 
@@ -301,7 +303,7 @@
 
  		      </div><!-- close .modal-body -->
 				
-			 <a class="not-a-member-pro" href="signup-step2.html">Not a member? <span>Join Today!</span></a>
+			 <a class="not-a-member-pro" href="signup-step2.php">Not a member? <span>Join Today!</span></a>
 		    </div><!-- close .modal-content -->
 		  </div><!-- close .modal-dialog -->
 		</div><!-- close .modal -->

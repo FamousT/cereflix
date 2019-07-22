@@ -47,7 +47,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">Animation
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -131,11 +131,11 @@
 			<div id="mobile-bars-icon-pro" class="noselect"><i class="fas fa-bars"></i></div>
 			
 			
-			<div id="header-user-profile">
+			<!--<div id="header-user-profile">
 				<div id="header-user-profile-click" class="noselect">
 					<img src="images/demo/user-profile.jpg" alt="Suzie">
-					<div id="header-username">Suzie Smith</div><i class="fas fa-angle-down"></i>
-				</div><!-- close #header-user-profile-click -->
+					<div id="header-username">	Susie smith</div><i class="fas fa-angle-down"></i> 
+				</div>  // close #header-user-profile-click 
 				<div id="header-user-profile-menu">
 					<ul>
 						<li><a href="dashboard-profile.html"><span class="icon-User"></span>My Profile</a></li>
@@ -144,15 +144,16 @@
 						<li><a href="#!"><span class="icon-Life-Safer"></span>Help/Support</a></li>
 						<li><a href="index.html"><span class="icon-Power-3"></span>Log Out</a></li>
 					</ul>
-				</div><!-- close #header-user-profile-menu -->
-			</div><!-- close #header-user-profile -->
+				</div>//close #header-user-profile-menu 
+			</div> close #header-user-profile -->
 			
+		<!--
 			<div id="header-user-notification">
 				<div id="header-user-notification-click" class="noselect">
 					<i class="far fa-bell"></i>
 					<span class="user-notification-count">3</span>
 				</div><!-- close #header-user-profile-click -->
-				<div id="header-user-notification-menu">
+		<!--		<div id="header-user-notification-menu">
 					<h3>Notifications</h3>
 					<div id="header-notification-menu-padding">
 							<ul id="header-user-notification-list">
@@ -161,9 +162,10 @@
 								<li><a href="#!"><img src="images/demo/user-profile-4.jpg" alt="Profile">Aenean vitae lectus non purus facilisis imperdiet. <div class="header-user-notify-time">5 days ago</div></a></li>
 							</ul>
 							<div class="clearfix"></div>
-						</div><!-- close #header-user-profile-menu -->
+						</div>// close #header-user-profile-menu
 					</div>
-			</div><!-- close #header-user-notification -->
+			</div>// close #header-user-notification 
+			-->
 			
 			
 			
@@ -191,9 +193,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="new_arrivals.php">
+	              <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
+	                Animation
 	              </a>
 	            </li>
 	            <li>
@@ -243,9 +245,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="new_arrivals.php">
+                <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  Animation
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -267,23 +269,20 @@
 				  <ul class="carousel-indicators">
 					<li data-target="#demo" data-slide-to="0" class="active"></li>
 					<li data-target="#demo" data-slide-to="1"></li>
-					<li data-target="#demo" data-slide-to="2"></li>
 				  </ul>
 				  <div class="carousel-inner">
 					<div class="carousel-item active">
-					  <a href="https://www.youtube.com/watch?v=v45GprEyM7U"><img src="images/tales.jpg" alt="Los Angeles" width="1100" height="500"></a>
-					  <div class="carousel-caption" style="margin-bottom:120px;">
-					  <a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-						<h3>Los Angeles</h3>
-						<p>We had such a great time in LA!</p>
+					  <a href="https://drive.google.com/open?id=1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU"><img src="images/tales.jpg" width="1100" height="500"></a>
+					  <div class="carousel-caption" style="margin-bottom:80px;">
+					  <a class="progression" href="https://drive.google.com/open?id=1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU"><i class="fas fa-play"></i></a>
+						<p><font color="blue"> <font size= "14">Tales by Moonlight</font></font></p>
+						<p>This is a compilation of all these famous and funny stories for your amusement and to your astonishment</p>
 					  </div>   
 					</div>
 					<div class="carousel-item">
-					  <a href="https://www.youtube.com/watch?v=PEC5ygPbUaA"><img src="images/dance.jpg" alt="Chicago" width="1100" height="500"></a>
-					  <div class="carousel-caption" style="margin-bottom:120px;>
-						<a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-						<h3>Los Angeles</h3>
-						<p>We had such a great time in LA!</p>
+					  <a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire2.jpg" alt="Chicago" width="1100" height="500px"></a>
+					  <div class="carousel-caption" style="margin-bottom:180px;>
+						<a class="progression" href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><i class="fas fa-play"></i></a>
 					  </div>  
 					</div>
 				  </div>
@@ -356,9 +355,9 @@
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/papa_ajasco3.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3"><img src="images/papa_ajasco3.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Papa Ajasco</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3">Papa Ajasco</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -378,7 +377,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/super_story3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1mNmStEhwzKFHxOEnTaL7nQwNvB64nHif/view?usp=sharing"><img src="images/super_story3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Super Story</a></h6>
 							      <div
@@ -401,7 +400,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Who wants to be a Millionaire</a></h6>
 							      <div
@@ -423,7 +422,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/ultimate_search.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1H2A3UFDXn2dLlnooYUjcGO6F7UbH6r8E"><img src="images/ultimate_search.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Gulder the Ultimate Search</a></h6>
 							      <div
@@ -446,7 +445,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1CNnhv51OTFyoS_2EJen7QLcpKBQ0Ot-x"><img src="images/jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jennifer's Diary</a></h6>
 							      <div
@@ -468,9 +467,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/bg5.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU/view?usp=sharing"><img src="images/tales3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tinsel</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tales by Moonlight</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -491,7 +490,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=13fj4Rw4PnBrnKtz3nRUjk6G0zVV5cjNU"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">the_masquerade</a></h6>
 							      <div
@@ -513,7 +512,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/14xGwVE3ZxKd7aucl4r19HItuC1XrHnQ6/view?usp=sharing"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Everyday People</a></h6>
 							      <div
@@ -535,7 +534,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/village_headmaster.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1XDFROR4HicDI6FG8WV-HqD2T8qllg5iV"><img src="images/village_headmaster.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Village Headmaster</a></h6>
 							      <div
@@ -557,7 +556,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/fuji2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1uCcEVsh58B50q2RExriwOjGnv5z5X0J7/view?usp=sharing"><img src="images/fuji2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Fuji House of Commotion</a></h6>
 							      <div
@@ -580,9 +579,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/ayetoro.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1fLvYCkxBYVuJWk7RoAhncfkptfDfFQHI/view?usp=sharing"><img src="images/wille_wille2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Ayetoro Town</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Willie Willie</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -602,9 +601,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Nnenna and Friends</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq">Nnenna and Friends</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -628,10 +627,10 @@
 				<ul class="page-numbers">
 					<li><a class="previous page-numbers" href="#!"><i class="fas fa-chevron-left"></i></a></li>
 					<li><span class="page-numbers current">1</span></li>
-					<li><a class="page-numbers" href="#!">2</a></li>
+					<!-- <li><a class="page-numbers" href="#!">2</a></li>
 					<li><a class="page-numbers" href="#!">3</a></li>
 					<li><a class="page-numbers" href="#!">4</a></li>
-					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li>
+					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li> -->
 				</ul>
 				
 						

@@ -47,7 +47,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">Animation
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -134,7 +134,7 @@
 			<div id="header-user-profile">
 				<div id="header-user-profile-click" class="noselect">
 					<img src="images/demo/user-profile.jpg" alt="Suzie">
-					<div id="header-username">Suzie Smith</div><i class="fas fa-angle-down"></i>
+					<div id="header-username"></div><i class="fas fa-angle-down"></i>
 				</div><!-- close #header-user-profile-click -->
 				<div id="header-user-profile-menu">
 					<ul>
@@ -191,9 +191,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="new_arrivals.php">
+	              <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
+	                Animation
 	              </a>
 	            </li>
 	            <li>
@@ -243,9 +243,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="new_arrivals.php">
+                <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  Animation
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -260,90 +260,54 @@
 		</nav>
 	
 		<main id="col-main">
-		<header id="masthead-pro">
-			<div class="container-fluid">
-								
-				<nav id="site-navigation-pro">
-					<ul class="sf-menu">
-												
-						<li class="normal-item-pro">
-							<a href="action.php">Action</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="adventure.php">Adventure</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="animation.php">Animation</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="comedy.php">Comedy</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="documentary.php">Documentary</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="drama.php">Drama</a>
-						</li>						
-						<li class="normal-item-pro">
-							<a href="horror.php">Horror</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="romance.php">Romance</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="sci_fi.php">Sci-Fi</a>
-						</li>
-						
-						
-						
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-						<!--<li class="normal-item-pro">
-							<a href="faqs.php">Terms of Use</a>
-						</li> -->
-					</ul>
-				</nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="action.php">Action</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="adventure.php">Adventure</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="animation2.php">Animation</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="comedy.php">Comedy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="documentary.php">Documentary</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="drama.php">Drama</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="fantasy.php">Fantasy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="horror.php">Horror</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="romance.php">Romance</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="thriller.php">Thrillers</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="sci_fi.php">Sci-fi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="western.php">Western</a>
+      </li>
 
-				<div id="mobile-bars-icon-pro" class="noselect"><i class="fas fa-bars"></i></div>
-				
-				<div class="clearfix"></div>
-			</div><!-- close .container -->
-			
-			<nav id="mobile-navigation-pro">
-			
-				<ul id="mobile-menu-pro">
-					<li class="normal-item-pro">
-							<a href="action.php">Action</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="adventure.php">Adventure</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="animation.php">Animation</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="comedy.php">Comedy</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="documentary.php">Documentary</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="drama.php">Drama</a>
-						</li>						
-						<li class="normal-item-pro">
-							<a href="horror.php">Horror</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="romance.php">Romance</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="sci_fi.php">Sci-Fi</a>
-						</li>
-					
-				</ul>
-				<div class="clearfix"></div>
-			
-			</nav>
-		</header>
+    </ul>
+  </div>
+</nav>
 		
 		<div class="dashboard-container">
 		
@@ -351,9 +315,9 @@
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/papa_ajasco3.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3"><img src="images/papa_ajasco3.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Papa Ajasco</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3">Papa Ajasco</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -373,7 +337,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="#"><img src="images/super_story3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1mNmStEhwzKFHxOEnTaL7nQwNvB64nHif/view?usp=sharing"><img src="images/super_story3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Super Story</a></h6>
 							      <div
@@ -396,7 +360,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Who wants to be a Millionaire</a></h6>
 							      <div
@@ -418,7 +382,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/ultimate_search.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1H2A3UFDXn2dLlnooYUjcGO6F7UbH6r8E"><img src="images/ultimate_search.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Gulder the Ultimate Search</a></h6>
 							      <div
@@ -441,7 +405,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1CNnhv51OTFyoS_2EJen7QLcpKBQ0Ot-x"><img src="images/jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jennifer's Diary</a></h6>
 							      <div
@@ -463,9 +427,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/bg5.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU/view?usp=sharing"><img src="images/tales3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tinsel</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tales by Moonlight</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -486,7 +450,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=13fj4Rw4PnBrnKtz3nRUjk6G0zVV5cjNU"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">the_masquerade</a></h6>
 							      <div
@@ -508,7 +472,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/14xGwVE3ZxKd7aucl4r19HItuC1XrHnQ6/view?usp=sharing"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Everyday People</a></h6>
 							      <div
@@ -530,7 +494,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/village_headmaster.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1XDFROR4HicDI6FG8WV-HqD2T8qllg5iV"><img src="images/village_headmaster.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Village Headmaster</a></h6>
 							      <div
@@ -552,7 +516,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/fuji2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1uCcEVsh58B50q2RExriwOjGnv5z5X0J7/view?usp=sharing"><img src="images/fuji2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Fuji House of Commotion</a></h6>
 							      <div
@@ -575,9 +539,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/ayetoro.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1fLvYCkxBYVuJWk7RoAhncfkptfDfFQHI/view?usp=sharing"><img src="images/wille_wille2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Ayetoro Town</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Willie Willie</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -597,9 +561,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Nnenna and Friends</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq">Nnenna and Friends</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -623,16 +587,15 @@
 				<ul class="page-numbers">
 					<li><a class="previous page-numbers" href="#!"><i class="fas fa-chevron-left"></i></a></li>
 					<li><span class="page-numbers current">1</span></li>
-					<li><a class="page-numbers" href="#!">2</a></li>
+					<!-- <li><a class="page-numbers" href="#!">2</a></li>
 					<li><a class="page-numbers" href="#!">3</a></li>
 					<li><a class="page-numbers" href="#!">4</a></li>
-					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li>
+					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li> -->
 				</ul>
 				
 						
 			</div><!-- close .dashboard-container -->
-		
-				</main>
+		</main>
 		
 		
 		</div><!-- close #sidebar-bg-->

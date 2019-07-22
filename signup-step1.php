@@ -108,28 +108,28 @@
 			<div class="container">
 				<ul id="registration-steps-pro">
 					<li class="current-menu-item">
-						<a href="signup-step1.html">
+						<a href="signup-step1.php">
 							<div class="registration-step-circle-icon">01</div>
 							<div class="registration-step-number">Step 1</div>
 							<h5 class="registration-step-title">Choose your plan</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step2.html">
+						<a href="signup-step2.php">
 							<div class="registration-step-circle-icon">02</div>
 							<div class="registration-step-number">Step 2</div>
 							<h5 class="registration-step-title">Create your account</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step3.html">
+						<a href="signup-step3.php">
 							<div class="registration-step-circle-icon">03</div>
 							<div class="registration-step-number">Step 3</div>
 							<h5 class="registration-step-title">Billing information</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step4.html">
+						<a href="signup-step4.php">
 							<div class="registration-step-circle-icon">04</div>
 							<div class="registration-step-number">Step 4</div>
 							<h5 class="registration-step-title">Welcome to SKRN!</h5>
@@ -228,24 +228,26 @@
 				 <div class="modal-body-pro social-login-modal-body-pro">
 					 
 					 <div class="registration-social-login-container">
-						 <form>
+						<form action="login.php" method="POST">
 							 <div class="form-group">
-								 <input type="text" class="form-control" id="username" placeholder="Username">
+								 <input type="text" class="form-control" name="username" placeholder="Username">
 							 </div>
 							 <div class="form-group">
-								 <input type="password" class="form-control" id="password" placeholder="Password">
+								 <input type="password" class="form-control" name="password" placeholder="Password">
 							 </div>
-							 <div class="form-group">
-								 <button type="button" class="btn btn-green-pro btn-display-block">Sign In</button>
-							 </div>
+
+ 							 <div class="form-group">
+							<button type="submit" name="login" class="btn btn-primary">Sign in</button>
+							</div>
 							 <div class="container-fluid">
 								 <div class="row no-gutters">
 							 		<div class="col checkbox-remember-pro"><input type="checkbox" id="checkbox-remember"><label for="checkbox-remember" class="col-form-label">Remember me</label></div>
 									<div class="col forgot-your-password"><a href="#!">Forgot your password?</a></div>
 								</div>
 							</div><!-- close .container-fluid -->
-						
+				
 						 </form>
+			 
 					 
 						 <div class="registration-social-login-or">or</div>
 						 

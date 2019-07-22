@@ -47,7 +47,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">Animation
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -191,9 +191,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="new_arrivals.php">
+	              <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
+	                Animation
 	              </a>
 	            </li>
 	            <li>
@@ -243,9 +243,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="new_arrivals.php">
+                <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  Animation
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -260,100 +260,64 @@
 		</nav>
 	
 		<main id="col-main">
-		<header id="masthead-pro">
-			<div class="container-fluid">
-								
-				<nav id="site-navigation-pro">
-					<ul class="sf-menu">
-												
-						<li class="normal-item-pro">
-							<a href="action.php">Action</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="adventure.php">Adventure</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="animation.php">Animation</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="comedy.php">Comedy</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="documentary.php">Documentary</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="drama.php">Drama</a>
-						</li>						
-						<li class="normal-item-pro">
-							<a href="horror.php">Horror</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="romance.php">Romance</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="sci_fi.php">Sci-Fi</a>
-						</li>
-						
-						
-						
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-						<!--<li class="normal-item-pro">
-							<a href="faqs.php">Terms of Use</a>
-						</li> -->
-					</ul>
-				</nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="action.php">Action<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="adventure.php">Adventure</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="animation2.php">Animation</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="comedy.php">Comedy</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="documentary.php">Documentary</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="drama.php">Drama</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="fantasy.php">Fantasy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="horror.php">Horror</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="romance.php">Romance</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="thriller.php">Thrillers</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="sci_fi.php">Sci-fi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="western.php">Western</a>
+      </li>
 
-				<div id="mobile-bars-icon-pro" class="noselect"><i class="fas fa-bars"></i></div>
-				
-				<div class="clearfix"></div>
-			</div><!-- close .container -->
-			
-			<nav id="mobile-navigation-pro">
-			
-				<ul id="mobile-menu-pro">
-					<li class="normal-item-pro">
-							<a href="action.php">Action</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="adventure.php">Adventure</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="animation.php">Animation</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="comedy.php">Comedy</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="documentary.php">Documentary</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="drama.php">Drama</a>
-						</li>						
-						<li class="normal-item-pro">
-							<a href="horror.php">Horror</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="romance.php">Romance</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="sci_fi.php">Sci-Fi</a>
-						</li>
-					
-				</ul>
-				<div class="clearfix"></div>
-			
-			</nav>
-		</header>
+    </ul>
+  </div>
+</nav>
 		
 		<div class="dashboard-container">
 			
 				<br><h4 class="heading-extra-margin-bottom">Documentary</h4>
-				<div class="row">
+	<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/madam_joy.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/madam_joy.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Madam Joy</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV">Madam Joy</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -373,9 +337,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1PXFRdeskrTYIWssIByYcsKd019RVh5W5/view?usp=sharing"><img src="images/things_apart.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Take Heed</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Things fall Apart</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -396,9 +360,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/stolen_bible.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1NXN8SH3Z4-bdH5d-qJxKrFfoJFNYSkiM"><img src="images/figurine.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Stolen Bible</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">figurine</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -418,9 +382,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/sunday_dagboru.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1d9spqIz6OXk9R5AC_7tMvOmPa3BUjB9V"><img src="images/saworoide.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Sunday Dagboru</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Saworoide</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -441,9 +405,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/nneka.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1LHSULBae4fy31vtul0KaHGIXI4VzcveQ"><img src="images/blood_money.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Nneka</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Blood Money</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -463,7 +427,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/koto_aye.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1ZXWvKlQfH1p8FR_rjunHp_YIcwxjk2OF"><img src="images/koto_aye.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Koto Aye</a></h6>
 							      <div
@@ -486,9 +450,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/agbara_nla.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1uwPNPrCA0or44JKTQdy-QN2p7utiL07m"><img src="images/agbara_nla.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Agbara Nle (A.K.A AYAMATANGA)</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Agbara Nla (A.K.A AYAMATANGA)</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -508,9 +472,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/osuofia_jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><img src="images/living.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Osuofia and Jenifer</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Living in Bondage</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -530,9 +494,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/jelili.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1hv8wWRQoqo-6Bi6c7lU4mlx90qfsQs9Z"><img src="images/lagos_benin.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jelili</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Lagos to Benin</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -552,9 +516,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/esin_ajoji.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=14Oy0uKkXaMcnt37K8CylJOPnVqpmWAA5"><img src="images/sikiratu_sindodo.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Esin Ajoji (The Strange Religion)</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Sikiratu Sindodo</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -575,9 +539,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/the_pride.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/akin_pawpaw4.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">The Pride</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Junior Boys</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -597,9 +561,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/akin_pawpaw.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Akin and Pawpaw</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX">Take Heed</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -623,16 +587,15 @@
 				<ul class="page-numbers">
 					<li><a class="previous page-numbers" href="#!"><i class="fas fa-chevron-left"></i></a></li>
 					<li><span class="page-numbers current">1</span></li>
-					<li><a class="page-numbers" href="#!">2</a></li>
+					<!-- <li><a class="page-numbers" href="#!">2</a></li>
 					<li><a class="page-numbers" href="#!">3</a></li>
 					<li><a class="page-numbers" href="#!">4</a></li>
-					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li>
+					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li> -->
 				</ul>
 				
 						
-			</div>
-		
-				</main>
+			</div><!-- close .dashboard-container -->
+		</main>
 		
 		
 		</div><!-- close #sidebar-bg-->
@@ -651,7 +614,6 @@
 		<script src="js/afterglow.min.js" defer></script><!-- Video Player JS Plugin -->
 		<script src="js/script.js" defer></script><!-- Custom Document Ready JS -->
 		<script src="js/script-dashboard.js" defer></script><!-- Custom Document Ready for Dashboard Only JS -->
-		
 		
 		
 	</body>

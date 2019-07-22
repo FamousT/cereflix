@@ -27,7 +27,7 @@ if (isset($_POST['login'])){
 
 				//log user in
 
-				header('location: action.php');
+				header('location: animation.php');
 				$_SESSION['user_name']=$user_name;
 
 		}

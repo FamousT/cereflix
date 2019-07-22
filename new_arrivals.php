@@ -8,13 +8,18 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:300,400,600,700">
 		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
 		
-		<title>CEREFLIX - New Releases</title>
+		
+		<title>CEREFLIX - TV Series</title>
 	</head>
 	<body>
-
 		<div id="sidebar-bg">
 			
       <header id="videohead-pro" class="sticky-header">
@@ -167,7 +172,7 @@
 			<nav id="mobile-navigation-pro">
 			
 				<ul id="mobile-menu-pro">
-	            <li>
+	            <li class="current-menu-item">
 	              <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
 	                TV Series
@@ -185,7 +190,7 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li class="current-menu-item">
+	            <li>
 	              <a href="new_arrivals.php">
 						<span class="icon-Movie-Ticket"></span>
 	                New Arrivals
@@ -219,21 +224,13 @@
 		
 		<nav id="sidebar-nav"><!-- Add class="sticky-sidebar-js" for auto-height sidebar -->
             <ul id="vertical-sidebar-nav" class="sf-menu">
-             
-			<li class="normal-item-pro current-menu-item">
-                <a href="new_arrivals.php">
-						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
-                </a>
-            </li>
-			
-			 <li class="normal-item-pro">
+              <li class="normal-item-pro current-menu-item">
                 <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
                   TV Series
                 </a>
               </li>
-              <li class="normal-item-pro">
+              <li class="movies">
                 <a href="movies.php">
 						<span class="icon-Reel"></span>
                   Movies
@@ -245,12 +242,17 @@
                   Playlists
                 </a>
               </li>
-              
+              <li class="normal-item-pro">
+                <a href="new_arrivals.php">
+						<span class="icon-Movie-Ticket"></span>
+                  New Arrivals
+                </a>
+              </li>
               <li class="normal-item-pro">
                 <a href="action.php">
 						<span class="icon-Clock"></span>
                   Categories
-                </a>
+				  </a>
               </li>
 
             </ul>
@@ -258,106 +260,100 @@
 		</nav>
 	
 		<main id="col-main">
-			
-			
-			  
-  <div class="container">
+		<header id="masthead-pro">
+			<div class="container-fluid">
+								
+				<nav id="site-navigation-pro">
+					<ul class="sf-menu">
+												
+						<li class="normal-item-pro">
+							<a href="action.php">Action</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="adventure.php">Adventure</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="animation.php">Animation</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="comedy.php">Comedy</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="documentary.php">Documentary</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="drama.php">Drama</a>
+						</li>						
+						<li class="normal-item-pro">
+							<a href="horror.php">Horror</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="romance.php">Romance</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="sci_fi.php">Sci-Fi</a>
+						</li>
+						
+						
+						
 
- <div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="https://www.youtube.com/watch?v=v45GprEyM7U"><img src="images/akin_pawpaw3.jpg" alt="Los Angeles" width="1100" height="500"></a>
-      <div class="carousel-caption" style="margin-bottom:120px;">
-	  <a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <a href="https://www.youtube.com/watch?v=PEC5ygPbUaA"><img src="images/papa_ajasco4.jpg" alt="Chicago" width="1100" height="500"></a>
-      <div class="carousel-caption" style="margin-bottom:120px;>
-        <a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
-      </div>  
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-</div>
+						<!--<li class="normal-item-pro">
+							<a href="faqs.php">Terms of Use</a>
+						</li> -->
+					</ul>
+				</nav>
 
-			<ul class="dashboard-genres-pro">
-				<li>
-					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama"></a>
-					<h6>Drama</h6>
-				</li>
-				<li class="active">
-					<a href="comedy.php"><img src="images/genres/comedy.png" alt="Comedy"></a>
-					<h6>Comedy</h6>
-				</li>
-				<li>
-					<a href="action.php"><img src="images/genres/action.png" alt="Action"></a>
-					<h6>Action</h6>
-				</li>
-				<li>
-					<a href="romance.php"><img src="images/genres/romance.png" alt="Romance"></a>
-					<h6>Romance</h6>
-				</li>
-				<li>
-					<a href="horror.php"><img src="images/genres/horror.png" alt="Horror"></a>
-					<h6>Horror</h6>
-				</li>
-				<li>
-					<a href="fantasy.php"><img src="images/genres/fantasy.png" alt="Fantasy"></a>
-					<h6>Fantasy</h6>
-				</li>
-				<li>
-					<a href="sci-fi.php"><img src="images/genres/sci-fi.png" alt="Sci-Fi"></a>
-					<h6>Sci-Fi</h6>
-				</li>
-				<li>
-					<a href="thriller.php"><img src="images/genres/thriller.png" alt="Thriller"></a>
-					<h6>Thriller</h6>
-				</li>
-				<li>
-					<a href="western.php"><img src="images/genres/western.png" alt="Western"></a>
-					<h6>Western</h6>
-				</li>
-				<li>
-					<a href="adventure.php"><img src="images/genres/adventure.png" alt="Adventure"></a>
-					<h6>Adventure</h6>
-				</li>
-				<li>
-					<a href="animation.php"><img src="images/genres/animation.png" alt="Animation"></a>
-					<h6>Animation</h6>
-				</li>
-				<li>
-					<a href="documentary.php"><img src="images/genres/documentary.png" alt="Documentary"></a>
-					<h6>Documentary</h6>
-				</li>
-			</ul>
-			
-			<div class="clearfix"></div>
-			
-			<div class="dashboard-container">
+				<div id="mobile-bars-icon-pro" class="noselect"><i class="fas fa-bars"></i></div>
 				
-				<h4 class="heading-extra-margin-bottom">New Releases</h4>
+				<div class="clearfix"></div>
+			</div><!-- close .container -->
+			
+			<nav id="mobile-navigation-pro">
+			
+				<ul id="mobile-menu-pro">
+					<li class="normal-item-pro">
+							<a href="action.php">Action</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="adventure.php">Adventure</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="animation.php">Animation</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="comedy.php">Comedy</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="documentary.php">Documentary</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="drama.php">Drama</a>
+						</li>						
+						<li class="normal-item-pro">
+							<a href="horror.php">Horror</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="romance.php">Romance</a>
+						</li>
+						<li class="normal-item-pro">
+							<a href="sci_fi.php">Sci-Fi</a>
+						</li>
+					
+				</ul>
+				<div class="clearfix"></div>
+			
+			</nav>
+		</header>
+		
+		<div class="dashboard-container">
+			
+				<br><h4 class="heading-extra-margin-bottom">Animation</h4>
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/papa_ajasco.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="dashboard-movie-profile.html"><img src="images/madam_joy.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Papa Ajasco</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Madam Joy</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -377,9 +373,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/super_story2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Super Story</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Take Heed</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -400,9 +396,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/binta.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/stolen_bible.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Binta and Friends</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Stolen Bible</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -422,9 +418,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/this_life.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/sunday_dagboru.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">This Life</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Sunday Dagboru</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -445,9 +441,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/nneka.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Nnenna and Friends</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Nneka</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -467,9 +463,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/fuji_house.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/koto_aye.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Fuji House of Commotion</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Koto Aye</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -490,9 +486,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/agbara_nla.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">the_masquerade</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Agbara Nle (A.K.A AYAMATANGA)</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -512,9 +508,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/osuofia_jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Everyday People</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Osuofia and Jenifer</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -534,9 +530,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/village_headmaster.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/jelili.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Village Headmaster</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jelili</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -556,9 +552,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/esin_ajoji.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Who wants to be a millionaire</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Esin Ajoji (The Strange Religion)</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -579,9 +575,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/ultimate_search.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/the_pride.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Gulder the Ultimate Search</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">The Pride</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -601,9 +597,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="dashboard-movie-profile.html"><img src="images/project_fame.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="dashboard-movie-profile.html"><img src="images/akin_pawpaw.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Project Fame</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Akin and Pawpaw</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -634,8 +630,9 @@
 				</ul>
 				
 						
-			</div><!-- close .dashboard-container -->
-		</main>
+			</div>
+		
+				</main>
 		
 		
 		</div><!-- close #sidebar-bg-->
@@ -654,6 +651,7 @@
 		<script src="js/afterglow.min.js" defer></script><!-- Video Player JS Plugin -->
 		<script src="js/script.js" defer></script><!-- Custom Document Ready JS -->
 		<script src="js/script-dashboard.js" defer></script><!-- Custom Document Ready for Dashboard Only JS -->
+		
 		
 		
 	</body>

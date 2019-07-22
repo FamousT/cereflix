@@ -47,7 +47,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">Animation
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -191,9 +191,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="new_arrivals.php">
+	              <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
+	                Animation
 	              </a>
 	            </li>
 	            <li>
@@ -243,9 +243,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="new_arrivals.php">
+                <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+					Animation
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -260,90 +260,56 @@
 		</nav>
 	
 		<main id="col-main">
-		<header id="masthead-pro">
-			<div class="container-fluid">
-								
-				<nav id="site-navigation-pro">
-					<ul class="sf-menu">
-												
-						<li class="normal-item-pro">
-							<a href="action.php">Action</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="adventure.php">Adventure</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="animation.php">Animation</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="comedy.php">Comedy</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="documentary.php">Documentary</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="drama.php">Drama</a>
-						</li>						
-						<li class="normal-item-pro">
-							<a href="horror.php">Horror</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="romance.php">Romance</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="sci_fi.php">Sci-Fi</a>
-						</li>
-						
-						
-						
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-						<!--<li class="normal-item-pro">
-							<a href="faqs.php">Terms of Use</a>
-						</li> -->
-					</ul>
-				</nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="action.php">Action</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="adventure.php">Adventure</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="animation2.php">Animation</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="comedy.php">Comedy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="documentary.php">Documentary</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="drama.php">Drama</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="fantasy.php">Fantasy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="horror.php">Horror</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="romance.php">Romance</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="thriller.php">Thrillers</a>
+      </li>
+	  <li class="nav-item ">
+        <a class="nav-link" href="sci_fi.php">Sci-fi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="western.php">Western</a>
+      </li>
 
-				<div id="mobile-bars-icon-pro" class="noselect"><i class="fas fa-bars"></i></div>
-				
-				<div class="clearfix"></div>
-			</div><!-- close .container -->
-			
-			<nav id="mobile-navigation-pro">
-			
-				<ul id="mobile-menu-pro">
-					<li class="normal-item-pro">
-							<a href="action.php">Action</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="adventure.php">Adventure</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="animation.php">Animation</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="comedy.php">Comedy</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="documentary.php">Documentary</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="drama.php">Drama</a>
-						</li>						
-						<li class="normal-item-pro">
-							<a href="horror.php">Horror</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="romance.php">Romance</a>
-						</li>
-						<li class="normal-item-pro">
-							<a href="sci_fi.php">Sci-Fi</a>
-						</li>
-					
-				</ul>
-				<div class="clearfix"></div>
-			
-			</nav>
-		</header>
+    </ul>
+  </div>
+</nav>
+
 		
 		<div class="dashboard-container">
 			

@@ -36,9 +36,10 @@
 					</ul>
 				</nav>
 				
-				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
 				
 				<a href="signup-step1.php"><button class="btn btn-header-pro noselect" role="button">Sign Up</button></a>
+				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
+
 
 				<div id="mobile-bars-icon-pro" class="noselect"><i class="fas fa-bars"></i></div>
 				
@@ -88,9 +89,8 @@
 					</li> -->
 				</ul>
 				<div class="clearfix"></div>
-			<button class="btn btn-mobile-pro btn-green-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
-
-			<a href="signup-step1.php"><button class="btn btn-mobile-pro btn-green-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button></a>
+			<a href="signup-step1.php"><button class="btn btn-header-pro noselect" role="button">Sign Up</button></a>
+				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
 			
 			</nav>
 		</header>
@@ -111,7 +111,7 @@
 										<div class="progression-studios-slider-caption-align">
 											<h2 class="text-white">Welcome to Cereflix<span style="color:white;">.</span></h2>
 											<h6 class="text-white">Watch the largest collection of Vintage Nigerian Movies and TV series anytime anywhere!</h6>
-											<a class="btn btn-green-pro btn-slider-pro" href="signup-step1.html" role="button">Start Your Free Trial</a>
+											<a class="btn btn-green-pro btn-slider-pro" href="signup-step1.php" role="button">Start Your Free Trial</a>
 										</div><!-- close .progression-studios-slider-caption-align -->
 									</div><!-- close .progression-studios-slider-caption-width -->
 									
@@ -134,7 +134,7 @@
 										<div class="progression-studios-slider-caption-align">
 											<h2 class="light-fonts-pro">Cereflix Streaming </h2>
 											<h6 class="light-fonts-pro">Remember good old days</h6>
-											<a class="btn btn-green-pro btn-slider-pro" href="tv_series.php" role="button">View The Video Library</a>
+											<a class="btn btn-green-pro btn-slider-pro" href="action.php" role="button">View The Video Library</a>
 										</div><!-- close .progression-studios-slider-caption-align -->
 									</div><!-- close .progression-studios-slider-caption-width -->
 									
@@ -156,7 +156,7 @@
 										<div class="progression-studios-slider-caption-align">
 											<h2 class="text-white">History and Heritage</h2>
 											<h6 class="text-white">Morals and Commedy</h6>
-											<a class="btn btn-green-pro btn-slider-pro" href="signup-step1.html" role="button">Start Your Free Trial</a>
+											<a class="btn btn-green-pro btn-slider-pro" href="signup-step1.php" role="button">Start Your Free Trial</a>
 										</div><!-- close .progression-studios-slider-caption-align -->
 									</div><!-- close .progression-studios-slider-caption-width -->
 									

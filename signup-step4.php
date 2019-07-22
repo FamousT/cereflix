@@ -23,10 +23,10 @@
 				<nav id="site-navigation-pro">
 					<ul class="sf-menu">
 						<li class="normal-item-pro">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li class="normal-item-pro">
-							<a href="dashboard-home.html">New Releases</a>
+							<a href="new_arrivals.php">New Arrivals</a>
 							<!-- Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
@@ -42,10 +42,10 @@
 							< End Sub-Menu example -->
 						</li>
 						<li class="normal-item-pro current-menu-item">
-							<a href="signup-step1.html">Pricing Plans</a>
+							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
 						<li class="normal-item-pro">
-							<a href="faqs.html">FAQs</a>
+							<a href="faqs.php">FAQs</a>
 						</li>
 					</ul>
 				</nav>
@@ -63,10 +63,10 @@
 			
 				<ul id="mobile-menu-pro">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="dashboard-home.html">New Releases</a>
+						<a href="dashboard-home.php">New Releases</a>
 						<!-- Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
@@ -82,10 +82,10 @@
 						< End Mobile Sub-Menu Example -->
 					</li>
 					<li>
-						<a href="signup-step1.html">Pricing Plans</a>
+						<a href="signup-step1.php">Pricing Plans</a>
 					</li>
 					<li>
-						<a href="faqs.html">FAQs</a>
+						<a href="faqs.php">FAQs</a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -108,28 +108,28 @@
 			<div class="container">
 				<ul id="registration-steps-pro">
 					<li>
-						<a href="signup-step1.html">
+						<a href="signup-step1.php">
 							<div class="registration-step-circle-icon">01</div>
 							<div class="registration-step-number">Step 1</div>
 							<h5 class="registration-step-title">Choose your plan</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step2.html">
+						<a href="signup-step2.php">
 							<div class="registration-step-circle-icon">02</div>
 							<div class="registration-step-number">Step 2</div>
 							<h5 class="registration-step-title">Create your account</h5>
 						</a>
 					</li>
 					<li>
-						<a href="signup-step3.html">
+						<a href="signup-step3.php">
 							<div class="registration-step-circle-icon">03</div>
 							<div class="registration-step-number">Step 3</div>
 							<h5 class="registration-step-title">Billing information</h5>
 						</a>
 					</li>
 					<li class="current-menu-item">
-						<a href="signup-step4.html">
+						<a href="signup-step4.php">
 							<div class="registration-step-circle-icon">04</div>
 							<div class="registration-step-number">Step 4</div>
 							<h5 class="registration-step-title">Welcome to Cereflix!</h5>
@@ -145,116 +145,10 @@
 						<div class="registration-steps-page-container">
 							
 							
-							<div class="registration-step-final-padding">
-								<h2 class="registration-final-heading">Welcome <span>John Doe!</span> Just a few more steps to complete your account</h2>
+								<h2 class="registration-final-heading">Welcome to cereflix Just a few more steps to complete your account</h2>
+
 								
-								<div class="registration-invite-friends">
-																		
-									<form class="registration-invite-friends-form">
-										<div class="form-group">
-											<label for="full-name" class="col-form-label">Invite your friends</label>
-											<input type="text" class="form-control" id="full-name" placeholder="Enter email separated by commas">
-										</div>
-										
-										<div class="form-group-invite-friends">
-											<ul class="registration-invite-friends-list">
-												<li  class="active">
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-1.jpg" alt="Friends">
-													<h6>Michael Mattas</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-2.jpg" alt="Friends">
-													<h6>Jeffrey Hische</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-3.jpg" alt="Friends">
-													<h6>Sandra Helmwit</h6>
-													<div class="friends-social-media">Twitter</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-4.jpg" alt="Friends">
-													<h6>Matt Nickerson</h6>
-													<div class="friends-social-media">Twitter</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-5.jpg" alt="Friends">
-													<h6>Gary Hustwit</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-6.jpg" alt="Friends">
-													<h6>Enrique Allen</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-7.jpg" alt="Friends">
-													<h6>Andrew Smith</h6>
-													<div class="friends-social-media">Twitter</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-8.jpg" alt="Friends">
-													<h6>Toby Winters</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-9.jpg" alt="Friends">
-													<h6>Matt Chewney</h6>
-													<div class="friends-social-media">Twitter</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-10.jpg" alt="Friends">
-													<h6>Jane Doe</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-11.jpg" alt="Friends">
-													<h6>Karen Smith</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-12.jpg" alt="Friends">
-													<h6>Sara West</h6>
-													<div class="friends-social-media">Twitter</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-13.jpg" alt="Friends">
-													<h6>Jennifer Doe</h6>
-													<div class="friends-social-media">Twitter</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-14.jpg" alt="Friends">
-													<h6>Suzie Smith</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-												<li>
-													<i class="fas fa-check-circle"></i>
-													<img src="images/demo/user-15.jpg" alt="Friends">
-													<h6>Megan Marks</h6>
-													<div class="friends-social-media">Facebook</div>
-												</li>
-											</ul>
-											<div class="clearfix"></div>
-										</div>
-								 
-								</div><!-- close .registration-invite-friends -->
-								
-								<div class="registration-genres-step">
+								<div class="registration-genres-step" style="padding:20px;">
 									<h5>Pick your preferred Genres:</h5>
 									<ul class="registration-genres-choice">
 										<li class="active">
@@ -321,12 +215,11 @@
 									<div class="clearfix"></div>
 								</div><!-- close .registration-genres-step -->
 								
-								<div class="registration-step-final-footer">
-									<a href="signup-welcome.html" class="btn btn-green-pro">Finish</a>
-									<a href="signup-welcome.html" class="btn">Skip This Step</a>
+								<div class="registration-step-final-footer" style="padding-bottom:20px;">
+									<a href="signup-welcome.php" class="btn btn-green-pro">Finish</a>
+									<a href="signup-welcome.php" class="btn">Skip This Step</a>
 								</div>
 								
-							</div>
 	  					 
 							
 						</div><!-- close .registration-steps-page-container -->
@@ -371,24 +264,26 @@
 				 <div class="modal-body-pro social-login-modal-body-pro">
 					 
 					 <div class="registration-social-login-container">
-						 <form>
+							<form action="login.php" method="POST">
 							 <div class="form-group">
-								 <input type="text" class="form-control" id="username" placeholder="Username">
+								 <input type="text" class="form-control" name="username" placeholder="Username">
 							 </div>
 							 <div class="form-group">
-								 <input type="password" class="form-control" id="password" placeholder="Password">
+								 <input type="password" class="form-control" name="password" placeholder="Password">
 							 </div>
-							 <div class="form-group">
-								 <button type="button" class="btn btn-green-pro btn-display-block">Sign In</button>
-							 </div>
+
+ 							 <div class="form-group">
+							<button type="submit" name="login" class="btn btn-primary">Sign in</button>
+							</div>
 							 <div class="container-fluid">
 								 <div class="row no-gutters">
 							 		<div class="col checkbox-remember-pro"><input type="checkbox" id="checkbox-remember"><label for="checkbox-remember" class="col-form-label">Remember me</label></div>
 									<div class="col forgot-your-password"><a href="#!">Forgot your password?</a></div>
 								</div>
 							</div><!-- close .container-fluid -->
-						
+				
 						 </form>
+			 
 					 
 						 <div class="registration-social-login-or">or</div>
 						 

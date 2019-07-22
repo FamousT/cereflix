@@ -42,7 +42,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">Animation
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -129,7 +129,7 @@
 			<div id="header-user-profile">
 				<div id="header-user-profile-click" class="noselect">
 					<img src="images/demo/user-profile.jpg" alt="Suzie">
-					<div id="header-username">Suzie Smith</div><i class="fas fa-angle-down"></i>
+					<div id="header-username"><!--Suzie Smith--></div><i class="fas fa-angle-down"></i>
 				</div><!-- close #header-user-profile-click -->
 				<div id="header-user-profile-menu">
 					<ul>
@@ -186,9 +186,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="new_arrivals.php">
+	              <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
+	                Animation
 	              </a>
 	            </li>
 	            <li>
@@ -238,9 +238,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="new_arrivals.php">
+                <a href="animation.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  Animation
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -262,24 +262,21 @@
 		  <ul class="carousel-indicators">
 			<li data-target="#demo" data-slide-to="0" class="active"></li>
 			<li data-target="#demo" data-slide-to="1"></li>
-			<li data-target="#demo" data-slide-to="2"></li>
 		  </ul>
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
-			  <a href="https://www.youtube.com/watch?v=v45GprEyM7U"><img src="images/play.jpg" alt="Los Angeles" width="1100" height="500"></a>
-			  <div class="carousel-caption" style="margin-bottom:120px;">
-			  <a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-				<h3>Los Angeles</h3>
-				<p>We had such a great time in LA!</p>
-			  </div>   
+			<a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire2.jpg" alt="Chicago" width="1100" height="500px"></a>
+			  <div class="carousel-caption" style="margin-bottom:180px;>
+				<a class="progression" href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><i class="fas fa-play"></i></a>
+			  </div>  
 			</div>
 			<div class="carousel-item">
-			  <a href="https://www.youtube.com/watch?v=PEC5ygPbUaA"><img src="images/tales.jpg" alt="Chicago" width="1100" height="500"></a>
-			  <div class="carousel-caption" style="margin-bottom:120px;>
-				<a class="progression" href="https://www.youtube.com/watch?v=v45GprEyM7U"><i class="fas fa-play"></i></a>
-				<h3>Los Angeles</h3>
-				<p>We had such a great time in LA!</p>
-			  </div>  
+			 <a href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><img src="images/lion_heart3.jpg" width="1100" height="500px"></a>
+			  <div class="carousel-caption" style="margin-bottom:10px;">
+			  <a class="progression" href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><i class="fas fa-play"></i></a>
+				<p><font color="white"> <font size= "14">Lion Heart</font></font></p>
+				<p>Lionheart is a 2018 Nigerian drama film produced by Chinny Onwugbenu and directed by Genevieve Nnaji. It stars Pete Edochie, Genevieve Nnaji, and Nkem Owoh. It was acquired by Netflix on 7 September 2018, making it the first Netflix original film produced in Nigeria.</p>
+			  </div>   
 			</div>
 		  </div>
 		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -305,10 +302,10 @@
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/akin_pawpaw.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/akin_pawpaw.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-6.jpg" alt="User Profile">
-								<h5><a href="#!">By: Richard Castellano</a></h5>
+								<h5><a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV">By: Akin and Pawpaw</a></h5>
 								<h6>8 Movies, 18 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
@@ -316,10 +313,10 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/this_life.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=147Nu-rBh9Q2HpPiXMK1E8sk_eWQ1gdRj"><img src="images/this_life.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-7.jpg" alt="User Profile">
-								<h5><a href="#!">By: Dan Vissner</a></h5>
+								<h5><a href="#!">By: Wale Adenuga Production</a></h5>
 								<h6>8 Movies, 18 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
@@ -327,10 +324,10 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-8.jpg" alt="User Profile">
-								<h5><a href="#!">By: Abbie Matsumoto</a></h5>
+								<h5><a href="#!">By: Wale Adenuga Production</a></h5>
 								<h6>8 Movies, 18 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
@@ -339,10 +336,10 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/papa_ajasco.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3a"><img src="images/papa_ajasco.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-9.jpg" alt="User Profile">
-								<h5><a href="#!">By: Jad Limcaco</a></h5>
+								<h5><a href="#!">By: Wale Adenuga Production</a></h5>
 								<h6>8 Movies, 18 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
@@ -351,10 +348,10 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/osuofia_jenifer.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1LHSULBae4fy31vtul0KaHGIXI4VzcveQ"><img src="images/blood_money.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-7.jpg" alt="User Profile">
-								<h5><a href="#!">By: Namie Amuro</a></h5>
+								<h5><a href="#!">By: Chico Ejiro</a></h5>
 								<h6>8 Movies, 18 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
@@ -362,22 +359,22 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/sunday_dagboru.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-8.jpg" alt="User Profile">
-								<h5><a href="#!">By: Daniel Stewart</a></h5>
-								<h6>8 Movies, 18 hrs 24 mins</h6>
+								<h5><a href="#!">By: Alfa Sule</a></h5>
+								<h6>8 Movies, 3 hrs 30 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
 					</div><!-- close .col -->
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-playlist-container-skrn">
-							<a href="#!"><img src="images/lion_heart.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/lion_heart.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-9.jpg" alt="User Profile">
-								<h5><a href="#!">By: Richard Chastain</a></h5>
-								<h6>8 Movies, 18 hrs 24 mins</h6>
+								<h5><a href="#!">By: Genevieve Nnaji</a></h5>
+								<h6>8 Movies, 2 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
 					</div><!-- close .col -->
@@ -388,8 +385,8 @@
 							<a href="#!"><img src="images/stolen_bible.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-playlist-text-skrn">
 								<img src="images/demo/user-10.jpg" alt="User Profile">
-								<h5><a href="#!">By: Daniel Stewart</a></h5>
-								<h6>8 Movies, 18 hrs 24 mins</h6>
+								<h5><a href="#!">By: Emeka Nwabueze</a></h5>
+								<h6>8 Movies, 1 hrs 24 mins</h6>
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-playlist-container-skrn -->
 					</div><!-- close .col -->
@@ -399,10 +396,10 @@
 				<ul class="page-numbers">
 					<li><a class="previous page-numbers" href="#!"><i class="fas fa-chevron-left"></i></a></li>
 					<li><span class="page-numbers current">1</span></li>
-					<li><a class="page-numbers" href="#!">2</a></li>
+				<!--	<li><a class="page-numbers" href="#!">2</a></li>
 					<li><a class="page-numbers" href="#!">3</a></li>
 					<li><a class="page-numbers" href="#!">4</a></li>
-					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li>
+					<li><a class="next page-numbers" href="#!"><i class="fas fa-chevron-right"></i></a></li>  -->
 				</ul>
 				
 						
