@@ -10,7 +10,8 @@
 		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
 		<title>CEREFLIX - Playlist</title>
 	</head>
@@ -42,7 +43,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -186,9 +187,9 @@
 	              </a>
 	            </li>
 	            <li>
-	              <a href="animation.php">
+	              <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
+	                New Releases
 	              </a>
 	            </li>
 	            <li>
@@ -238,9 +239,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="animation.php">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  Animation
+                  New Releases
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -256,7 +257,7 @@
 	
 		<main id="col-main">
 			
-			<div class="container">
+			<div class="container animated zoomInDown">
 
 		 <div id="demo" class="carousel slide" data-ride="carousel">
 		  <ul class="carousel-indicators">

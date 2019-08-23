@@ -15,9 +15,11 @@
 		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
+		<title>CEREFLIX - Drama</title>
 		
-		<title>CEREFLIX - TV Series</title>
 	</head>
 	<body>
 		<div id="sidebar-bg">
@@ -47,7 +49,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -134,7 +136,7 @@
 			<div id="header-user-profile">
 				<div id="header-user-profile-click" class="noselect">
 					<img src="images/demo/user-profile.jpg" alt="Suzie">
-					<div id="header-username">Suzie Smith</div><i class="fas fa-angle-down"></i>
+					<div id="header-username"></div><i class="fas fa-angle-down"></i>
 				</div><!-- close #header-user-profile-click -->
 				<div id="header-user-profile-menu">
 					<ul>
@@ -172,7 +174,7 @@
 			<nav id="mobile-navigation-pro">
 			
 				<ul id="mobile-menu-pro">
-	            <li class="current-menu-item">
+	            <li>
 	              <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
 	                TV Series
@@ -190,13 +192,13 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li>
-	              <a href="animation.php">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
-	              </a>
-	            </li>
-	            <li>
+                  New Releases
+                </a>
+              </li>
+	            <li class="current-menu-item">
 	              <a href="action.php">
 						<span class="icon-Clock"></span>
 	                Categories
@@ -224,7 +226,7 @@
 		
 		<nav id="sidebar-nav"><!-- Add class="sticky-sidebar-js" for auto-height sidebar -->
             <ul id="vertical-sidebar-nav" class="sf-menu">
-              <li class="normal-item-pro current-menu-item">
+              <li>
                 <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
                   TV Series
@@ -243,15 +245,15 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="animation.php">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  Animation
+                  New Releases
                 </a>
               </li>
-              <li class="normal-item-pro">
+              <li class="normal-item-pro current-menu-item">
                 <a href="action.php">
 						<span class="icon-Clock"></span>
-                  Categories
+                  Categoriess
                 </a>
               </li>
 
@@ -260,56 +262,67 @@
 		</nav>
 	
 		<main id="col-main">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="action.php">Action<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="adventure.php">Adventure</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="animation2.php">Animation</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="comedy.php">Comedy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="documentary.php">Documentary</a>
-      </li>
-	  <li class="nav-item active">
-        <a class="nav-link" href="drama.php">Drama</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="fantasy.php">Fantasy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="horror.php">Horror</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="romance.php">Romance</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="thriller.php">Thrillers</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="sci_fi.php">Sci-fi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="western.php">Western</a>
-      </li>
-
-    </ul>
-  </div>
-</nav>
-	
 		
-		<div class="dashboard-container">
+		<ul class="dashboard-genres-pro animate slideInDown" style="padding:0px; margin:0px;" >
+				
+				
+				<li>
+					<a href="action.php"><img src="images/genres/action.png" alt="Action" style="height:30px; width:30px;"></a>
+					<h6>Action</h6>
+				</li>
+				<li>
+					<a href="adventure.php"><img src="images/genres/adventure.png" alt="Adventure" style="height:30px; width:30px;"></a>
+					<h6>Adventure</h6>
+				</li>
+				<li>
+					<a href="animation2.php"><img src="images/genres/animation.png" alt="Animation" style="height:30px; width:30px;"></a>
+					<h6>Animation</h6>
+				</li>
+				<li>
+					<a href="comedy.php"><img src="images/genres/comedy.png" alt="Comedy" style="height:30px; width:30px;" ></a>
+					<h6>Comedy</h6>
+				</li>
+				<li>
+					<a href="documentary.php"><img src="images/genres/documentary.png" alt="Documentary" style="height:30px; width:30px;"></a>
+					<h6>Documentary</h6>
+				</li>
+				<li class="active">
+
+					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama" style="height:30px; width:30px;" ></a>
+					<h6>Drama</h6>
+				</li>
+				<li>
+					<a href="fantasy.php"><img src="images/genres/fantasy.png" alt="Fantasy" style="height:30px; width:30px;"></a>
+					<h6>Fantasy</h6>
+				</li>
+				<li>
+					<a href="horror.php"><img src="images/genres/horror.png" alt="Horror" style="height:30px; width:30px;"></a>
+					<h6>Horror</h6>
+				</li>
+				<li>
+					<a href="romance.php"><img src="images/genres/romance.png" alt="Romance" style="height:30px; width:30px;"></a>
+					<h6>Romance</h6>
+				</li>				
+				<li>
+					<a href="sci_fi.php"><img src="images/genres/sci-fi.png" alt="Sci-Fi" style="height:30px; width:30px;"></a>
+					<h6>Sci-Fi</h6>
+				</li>
+				<li>
+					<a href="thriller.php"><img src="images/genres/thriller.png" alt="Thriller" style="height:30px; width:30px;"></a>
+					<h6>Thriller</h6>
+				</li>
+				<li>
+					<a href="western.php"><img src="images/genres/western.png" alt="Western" style="height:30px; width:30px;"></a>
+					<h6>Western</h6>
+				</li>
+				
+				
+			</ul>
+			
+			
+			<div class="clearfix"></div>
+
+			<div class="dashboard-container animate slideInUp">
 			
 				<br><h4 class="heading-extra-margin-bottom">Drama</h4>
 							<div class="row">

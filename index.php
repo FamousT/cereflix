@@ -25,10 +25,11 @@
 							<a href="index.php">Home</a>
 						</li>
 						
-
 						<li class="normal-item-pro">
 							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
+						
+						
 
 						<li class="normal-item-pro">
 							<a href="faqs.php">FAQs</a>
@@ -52,8 +53,9 @@
 					<li>
 						<a href="index.php">Home</a>
 					</li>
-						<!--<li>
-						<a href="dashboard-home.php">New Releases</a>
+					<!--<li>
+						<a href="New Releases.php">New Releases</a>
+					</li>
 					 Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
@@ -142,7 +144,7 @@
 									<div class="progression-studios-slider-caption-width">
 										<div class="progression-studios-slider-caption-align">
 											<h2 class="text-white">History and Heritage</h2>
-											<h6 class="text-white">Morals and Commedy</h6>
+											<h6 class="text-white">Morals and Comedy</h6>
 											<a class="btn btn-green-pro btn-slider-pro" href="signup-step1.php" role="button">Start Your Free Trial</a>
 										</div><!-- close .progression-studios-slider-caption-align -->
 									</div><!-- close .progression-studios-slider-caption-width -->
@@ -280,7 +282,7 @@
 		    <div class="modal-content">
 				 <div class="modal-header-pro">
 					 <h2>Welcome Back</h2>
-					 <h6>Sign in to your Cereflix</h6>
+					 <h6>Sign in to your Cereflix Account</h6>
 				 </div>
 				 <div class="modal-body-pro social-login-modal-body-pro">
 

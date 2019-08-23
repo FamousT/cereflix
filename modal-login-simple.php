@@ -18,16 +18,16 @@
 		<header id="masthead-pro">
 			<div class="container">
 				
-				<h1><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
+				<h1><a href="index.php"><img src="images/cere.png" alt="Logo"></a></h1>
 				
 				<nav id="site-navigation-pro">
 					<ul class="sf-menu">
 						<li class="normal-item-pro">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
-						<li class="normal-item-pro">
-							<a href="dashboard-home.html">New Releases</a>
-							<!-- Sub-Menu Example >
+						<!--<li class="normal-item-pro">
+							<a href="new_releases.php">New Releases</a>
+							 Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
 									<a href="#!">Sub-menu item 1</a>
@@ -42,10 +42,10 @@
 							< End Sub-Menu example -->
 						</li>
 						<li class="normal-item-pro">
-							<a href="signup-step1.html">Pricing Plans</a>
+							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
 						<li class="normal-item-pro current-menu-item">
-							<a href="faqs.html">FAQs</a>
+							<a href="faqs.php">FAQs</a>
 						</li>
 					</ul>
 				</nav>
@@ -62,11 +62,11 @@
 			
 				<ul id="mobile-menu-pro">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="dashboard-home.html">New Releases</a>
-						<!-- Mobile Sub-Menu Example >
+						<!--<a href="dashboard-home.html">New Releases</a>
+						 Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
 								<a href="#!">Sub-menu item 1</a>
@@ -81,10 +81,10 @@
 						< End Mobile Sub-Menu Example -->
 					</li>
 					<li>
-						<a href="signup-step1.html">Pricing Plans</a>
+						<a href="signup-step1.php">Pricing Plans</a>
 					</li>
 					<li>
-						<a href="faqs.html">FAQs</a>
+						<a href="faqs.php">FAQs</a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>

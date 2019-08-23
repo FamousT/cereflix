@@ -18,16 +18,16 @@
 		<header id="masthead-pro">
 			<div class="container">
 				
-				<h1><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
+				<h1><a href="index.php"><img src="images/cere.png" alt="Logo"></a></h1>
 				
 				<nav id="site-navigation-pro">
 					<ul class="sf-menu">
 						<li class="normal-item-pro">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
-						<li class="normal-item-pro">
+					<!--	<li class="normal-item-pro">
 							<a href="dashboard-home.html">New Releases</a>
-							<!-- Sub-Menu Example >
+							 Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
 									<a href="#!">Sub-menu item 1</a>
@@ -42,15 +42,15 @@
 							< End Sub-Menu example -->
 						</li>
 						<li class="normal-item-pro">
-							<a href="signup-step1.html">Pricing Plans</a>
+							<a href="signup-step1.php">Pricing Plans</a>
 						</li>
 						<li class="normal-item-pro current-menu-item">
-							<a href="faqs.html">FAQs</a>
+							<a href="faqs.php">FAQs</a>
 						</li>
 					</ul>
 				</nav>
 				
-				<a href="signup-step1.html" class="btn btn-header-pro btn-green-pro noselect">Start a Free Trial</a>
+				<a href="signup-step1.php" class="btn btn-header-pro btn-green-pro noselect">Start a Free Trial</a>
 				
 				<button class="btn btn-header-pro noselect" data-toggle="modal" data-target="#LoginModal" role="button">Sign In</button>
 				
@@ -64,11 +64,11 @@
 			
 				<ul id="mobile-menu-pro">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="dashboard-home.html">New Releases</a>
-						<!-- Mobile Sub-Menu Example >
+						 Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">
 								<a href="#!">Sub-menu item 1</a>
@@ -83,10 +83,10 @@
 						< End Mobile Sub-Menu Example -->
 					</li>
 					<li>
-						<a href="signup-step1.html">Pricing Plans</a>
+						<a href="signup-step1.php">Pricing Plans</a>
 					</li>
 					<li>
-						<a href="faqs.html">FAQs</a>
+						<a href="faqs.php">FAQs</a>
 					</li>
 				</ul>
 				<div class="clearfix"></div>
@@ -238,7 +238,7 @@ vestibulum quis luctus vel, facilisis vitae lacus. Nulla sit amet arcu a leo ele
 
  		      </div><!-- close .modal-body -->
 				
-			 <a class="not-a-member-pro" href="signup-step2.html">Not a member? <span>Join Today!</span></a>
+			 <a class="not-a-member-pro" href="signup-step2.php">Not a member? <span>Join Today!</span></a>
 		    </div><!-- close .modal-content -->
 		  </div><!-- close .modal-dialog -->
 		</div><!-- close .modal -->

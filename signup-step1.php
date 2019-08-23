@@ -23,11 +23,11 @@
 				<nav id="site-navigation-pro">
 					<ul class="sf-menu">
 						<li class="normal-item-pro">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
-						<!--<li class="normal-item-pro">
-							<a href="new_arrivals.php">New Arrivals</a>
-							 Sub-Menu Example >
+						<!--<li class="normal-item-pro"></li>
+							<a href="new_releases.php">New Arrivals</a>
+							Sub-Menu Example >
 							<ul class="sub-menu">
 								<li class="normal-item-pro">
 									<a href="#!">Sub-menu item 1</a>
@@ -65,8 +65,8 @@
 					<li>
 						<a href="index.php">Home</a>
 					</li>
-					<!--<li>
-						<a href="dashboard-home.php">New Releases</a>
+					<li>
+						<!--<a href="new_releases.php">New Releases</a></li>
 						 Mobile Sub-Menu Example >
 						<ul>
 							<li class="normal-item-pro">

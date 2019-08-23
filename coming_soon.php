@@ -42,7 +42,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -185,12 +185,12 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li>
-	              <a href="dashboard-new-arrivals.html">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
-	              </a>
-	            </li>
+                  New Releases
+                </a>
+              </li>
 	            <li class="current-menu-item">
 	              <a href="dashboard-coming-soon.html">
 						<span class="icon-Clock"></span>
@@ -238,9 +238,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="dashboard-new-arrivals.html">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  New Releases
                 </a>
               </li>
               <li class="normal-item-pro current-menu-item">

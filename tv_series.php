@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:300,400,600,700">
@@ -15,7 +14,8 @@
 		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
 		<title>CEREFLIX - TV Series</title>
 	</head>
@@ -47,7 +47,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -192,12 +192,12 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li>
-	              <a href="animation.php">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
-	              </a>
-	            </li>
+                  New Releases
+                </a>
+              </li>
 	            <li>
 	              <a href="action.php">
 						<span class="icon-Clock"></span>
@@ -245,9 +245,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="animation.php">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  Animation
+                  New Releases
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -256,15 +256,13 @@
                   Coming Soon
                 </a>
               </li>
-
             </ul>
 				<div class="clearfix"></div>
 		</nav>
 	
 		<main id="col-main">
 				
-			  <div class="container">
-
+			  <div class="container animated zoomInDown">
 				 <div id="demo" class="carousel slide" data-ride="carousel">
 				  <ul class="carousel-indicators">
 					<li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -272,15 +270,13 @@
 				  </ul>
 				  <div class="carousel-inner">
 					<div class="carousel-item active">
-					  <a href="https://drive.google.com/open?id=1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU"><img src="images/tales.jpg" width="1100" height="500"></a>
+					  <a href="https://drive.google.com/open?id=1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU"><img src="images/papa_ajasco6.jpg" style="width:1200px; height:480px;"></a>
 					  <div class="carousel-caption" style="margin-bottom:80px;">
 					  <a class="progression" href="https://drive.google.com/open?id=1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU"><i class="fas fa-play"></i></a>
-						<p><font color="blue"> <font size= "14">Tales by Moonlight</font></font></p>
-						<p>This is a compilation of all these famous and funny stories for your amusement and to your astonishment</p>
 					  </div>   
 					</div>
 					<div class="carousel-item">
-					  <a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire2.jpg" alt="Chicago" width="1100" height="500px"></a>
+					  <a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire4.jpg" alt="Chicago" style="width:1200px; height:480px;"></a>
 					  <div class="carousel-caption" style="margin-bottom:180px;>
 						<a class="progression" href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><i class="fas fa-play"></i></a>
 					  </div>  
@@ -295,14 +291,12 @@
 				</div>
 				</div>
 			
-
-
 			<ul class="dashboard-genres-pro">
 				<li>
 					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama"></a>
 					<h6>Drama</h6>
 				</li>
-				<li class="active">
+				<li>
 					<a href="comedy.php"><img src="images/genres/comedy.png" alt="Comedy"></a>
 					<h6>Comedy</h6>
 				</li>
@@ -355,7 +349,7 @@
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3"><img src="images/papa_ajasco3.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3"><img src="images/papa_ajasco5.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3">Papa Ajasco</a></h6>
 							      <div
@@ -377,7 +371,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1mNmStEhwzKFHxOEnTaL7nQwNvB64nHif/view?usp=sharing"><img src="images/super_story3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1mNmStEhwzKFHxOEnTaL7nQwNvB64nHif/view?usp=sharing"><img src="images/super_story2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Super Story</a></h6>
 							      <div
@@ -400,7 +394,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire5.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Who wants to be a Millionaire</a></h6>
 							      <div
@@ -445,7 +439,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1CNnhv51OTFyoS_2EJen7QLcpKBQ0Ot-x"><img src="images/jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1CNnhv51OTFyoS_2EJen7QLcpKBQ0Ot-x"><img src="images/jenifer2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jennifer's Diary</a></h6>
 							      <div
@@ -465,11 +459,12 @@
 						</div><!-- close .item-listing-container-skrn -->
 					</div><!-- close .col -->
 					
+					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU/view?usp=sharing"><img src="images/tales3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1uCcEVsh58B50q2RExriwOjGnv5z5X0J7/view?usp=sharing"><img src="images/fuji3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tales by Moonlight</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Fuji House of Commotion</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -488,11 +483,12 @@
 					</div><!-- close .col -->
 					
 					
+					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=13fj4Rw4PnBrnKtz3nRUjk6G0zVV5cjNU"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=13fj4Rw4PnBrnKtz3nRUjk6G0zVV5cjNU"><img src="images/the_masquerade2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">the_masquerade</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">The masquerade</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -512,7 +508,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/14xGwVE3ZxKd7aucl4r19HItuC1XrHnQ6/view?usp=sharing"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/14xGwVE3ZxKd7aucl4r19HItuC1XrHnQ6/view?usp=sharing"><img src="images/everyday_people2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Everyday People</a></h6>
 							      <div
@@ -531,6 +527,12 @@
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-listing-container-skrn -->
 					</div><!-- close .col -->
+					
+					
+					
+					
+					
+					
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
@@ -554,11 +556,13 @@
 						</div><!-- close .item-listing-container-skrn -->
 					</div><!-- close .col -->
 					
+					
+										
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1uCcEVsh58B50q2RExriwOjGnv5z5X0J7/view?usp=sharing"><img src="images/fuji2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU/view?usp=sharing"><img src="images/tales4.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Fuji House of Commotion</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tales by Moonlight</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -659,3 +663,4 @@
 		
 	</body>
 </html>
+

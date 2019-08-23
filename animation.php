@@ -10,6 +10,8 @@
 		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
 		<title>CEREFLIX - Animation</title>
 	</head>
@@ -42,7 +44,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -185,12 +187,12 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li class="current-menu-item">
-	              <a href="animation.php">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
-	              </a>
-	            </li>
+                  New Releases
+                </a>
+              </li>
 	            <li>
 	              <a href="action.php">
 						<span class="icon-Clock"></span>
@@ -220,12 +222,12 @@
 		<nav id="sidebar-nav"><!-- Add class="sticky-sidebar-js" for auto-height sidebar -->
             <ul id="vertical-sidebar-nav" class="sf-menu">
              
-			<li class="normal-item-pro current-menu-item">
-                <a href="animation.php">
+			<li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  Animation
+                  New Releases
                 </a>
-            </li>
+              </li>
 			
 			 <li class="normal-item-pro">
                 <a href="tv_series.php">
@@ -261,7 +263,7 @@
 			
 			
 			  
-  <div class="container">
+  <div class="container animated zoomInDown">
 
  <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
@@ -271,23 +273,21 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="https://drive.google.com/open?id=1z6dkKh6f3n33cezNM0U4JLUTb90VdwJQ"><img src="images/animation1.jpg" width="1100" height="500"></a>
+      <a href="https://drive.google.com/file/d/1q-is9B1WGyZz3cKk29JN9pd1vh5wJJLH/view?usp=sharing"><img src="images/clara2.jpg" style=" width:1100px; height:480px"></a>
       <div class="carousel-caption" style="margin-bottom:180px;">
-	  <a class="progression" href="https://drive.google.com/open?id=1z6dkKh6f3n33cezNM0U4JLUTb90VdwJQ"><i class="fas fa-play"></i></a>
+	  <a class="progression" href="https://drive.google.com/file/d/1q-is9B1WGyZz3cKk29JN9pd1vh5wJJLH/view?usp=sharing"><i class="fas fa-play"></i></a>
       </div>   
     </div>
     <div class="carousel-item">
-      <a href="https://drive.google.com/open?id=1yFuv8K7RvljokcmQTSU6BNCE9bb4mXQ9"><img src="images/animation6.jpg" style=" width:1100px; height:475px"></a>
+      <a href="https://drive.google.com/open?id=1yFuv8K7RvljokcmQTSU6BNCE9bb4mXQ9"><img src="images/animation6.jpg" style=" width:1100px; height:480px"></a>
       <div class="carousel-caption" style="margin-bottom:180px;>
         <a class="progression" href="https://drive.google.com/open?id=1yFuv8K7RvljokcmQTSU6BNCE9bb4mXQ9"><i class="fas fa-play"></i></a>
       </div>  
     </div>
 	<div class="carousel-item">
-      <a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><img src="images/animation5.jpg" style=" width:1100px; height:475px"></a>
+      <a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><img src="images/panda3.jpg" style=" width:1100px; height:480px"></a>
       <div class="carousel-caption">
         <a class="progression" href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><i class="fas fa-play"></i></a>
-		<p><font color="white"> <font size= "14">The Incredible</font></font></p>
-        <p>The Incredibles is a 2004 American computer-animated superhero film written and directed by Brad Bird, produced by Pixar Animation Studios, released by Walt Disney Pictures, and starring the voices of Craig T. Nelson, Holly Hunter, Sarah Vowell, Spencer Fox, Jason Lee, Samuel L. Jackson, and Elizabeth Peña. </p>
       </div>  
     </div>
   </div>
@@ -300,12 +300,12 @@
 </div>
 </div>
 
-			<ul class="dashboard-genres-pro">
+			<ul class="dashboard-genres-pro animated slideInLeft">
 				<li>
 					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama"></a>
 					<h6>Drama</h6>
 				</li>
-				<li class="active">
+				<li>
 					<a href="comedy.php"><img src="images/genres/comedy.png" alt="Comedy"></a>
 					<h6>Comedy</h6>
 				</li>
@@ -326,7 +326,7 @@
 					<h6>Fantasy</h6>
 				</li>
 				<li>
-					<a href="sci-fi.php"><img src="images/genres/sci-fi.png" alt="Sci-Fi"></a>
+					<a href="sci_fi.php"><img src="images/genres/sci-fi.png" alt="Sci-Fi" style="height:30px; width:30px;"></a>
 					<h6>Sci-Fi</h6>
 				</li>
 				<li>
@@ -341,14 +341,14 @@
 					<a href="adventure.php"><img src="images/genres/adventure.png" alt="Adventure"></a>
 					<h6>Adventure</h6>
 				</li>
-				<li>
+				<li class="active">
 					<a href="animation.php"><img src="images/genres/animation.png" alt="Animation"></a>
 					<h6>Animation</h6>
 				</li>
 				<li>
 					<a href="documentary.php"><img src="images/genres/documentary.png" alt="Documentary"></a>
 					<h6>Documentary</h6>
-				</li>s
+				</li>
 			</ul>
 			
 			<div class="clearfix"></div>
@@ -381,7 +381,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1cM73YLSlcnBcX-ibjMM4E4ToyeIB6rlM"><img src="images/monsters.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1cM73YLSlcnBcX-ibjMM4E4ToyeIB6rlM"><img src="images/monsters2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1cM73YLSlcnBcX-ibjMM4E4ToyeIB6rlM">Monster and Aliens</a></h6>
 							      <div
@@ -404,7 +404,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=116gYzTy9uuIfjBcPYNCARcqvye1LCWhT"><img src="images/panda.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=116gYzTy9uuIfjBcPYNCARcqvye1LCWhT"><img src="images/panda3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=116gYzTy9uuIfjBcPYNCARcqvye1LCWhT">Kung fu Panda</a></h6>
 							      <div
@@ -426,7 +426,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1y3S0puCesWFyhqOynvTcnSlUPPj5Uwzn"><img src="images/justice_league.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1y3S0puCesWFyhqOynvTcnSlUPPj5Uwzn"><img src="images/justice2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1y3S0puCesWFyhqOynvTcnSlUPPj5Uwzn">Justice League</a></h6>
 							      <div
@@ -449,13 +449,13 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7"><img src="images/avengers.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><img src="images/incredible2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7">Avengers</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8">The Incredible</a></h6>
 							      <div
 							        class="circle-rating-pro"
-							        data-value="0.86"
-							        data-animation-start-value="0.86"
+							        data-value="0.72"
+							        data-animation-start-value="0.72"
 							        data-size="32"
 							        data-thickness="3"
 							        data-fill="{
@@ -463,15 +463,18 @@
 							        }"
 							        data-empty-fill="#def6de"
 							        data-reverse="true"
-							      ><span style="color:red;">8.6</span></div>
+							      ><span style="color:red;">7.2</span></div>
 								</div><!-- close .item-listing-text-skrn-vertical-align -->
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-listing-container-skrn -->
 					</div><!-- close .col -->
 					
+					
+					
+					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1s9HCDuspvaYejECaE7zPUgFo6HP0Lf-S"><img src="images/avatar2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1s9HCDuspvaYejECaE7zPUgFo6HP0Lf-S"><img src="images/avatar4.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1s9HCDuspvaYejECaE7zPUgFo6HP0Lf-S">Avatar</a></h6>
 							      <div
@@ -494,7 +497,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1_pdpS4hu1GvXQ2gkqx6GAEzAfevYwMDO"><img src="images/lion_king.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1_pdpS4hu1GvXQ2gkqx6GAEzAfevYwMDO"><img src="images/lion_king2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1_pdpS4hu1GvXQ2gkqx6GAEzAfevYwMDO">The Lion King</a></h6>
 							      <div
@@ -516,7 +519,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=19BZWPyj-wkbq-saZHijctuIkdzi0GEq9"><img src="images/xmen.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=19BZWPyj-wkbq-saZHijctuIkdzi0GEq9"><img src="images/xmen2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=19BZWPyj-wkbq-saZHijctuIkdzi0GEq9">X-Men</a></h6>
 							      <div
@@ -538,7 +541,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1Uv7fteDaTPcCmjwmdF5CpNwzSsHfvORY"><img src="images/hulk.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1Uv7fteDaTPcCmjwmdF5CpNwzSsHfvORY"><img src="images/hulk2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1Uv7fteDaTPcCmjwmdF5CpNwzSsHfvORY">Hulk</a></h6>
 							      <div
@@ -560,9 +563,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M"><img src="images/raid_redemption.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M"><img src="images/naruto.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M">Raid Redemption</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M">Naruto</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -574,7 +577,7 @@
 							        }"
 							        data-empty-fill="#ffe1e1"
 							        data-reverse="true"
-							      ><span style="color:#ff4141;">6.0</span></div>
+							      ><span style="color:#ff4141;"8.9</span></div>
 								</div><!-- close .item-listing-text-skrn-vertical-align -->
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-listing-container-skrn -->
@@ -603,15 +606,16 @@
 						</div><!-- close .item-listing-container-skrn -->
 					</div><!-- close .col -->
 					
+					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><img src="images/animation3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7"><img src="images/avengers2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8">The Incredible</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7">Avengers</a></h6>
 							      <div
 							        class="circle-rating-pro"
-							        data-value="0.72"
-							        data-animation-start-value="0.72"
+							        data-value="0.86"
+							        data-animation-start-value="0.86"
 							        data-size="32"
 							        data-thickness="3"
 							        data-fill="{
@@ -619,12 +623,11 @@
 							        }"
 							        data-empty-fill="#def6de"
 							        data-reverse="true"
-							      ><span style="color:red;">7.2</span></div>
+							      ><span style="color:red;">8.6</span></div>
 								</div><!-- close .item-listing-text-skrn-vertical-align -->
 							</div><!-- close .item-listing-text-skrn -->
 						</div><!-- close .item-listing-container-skrn -->
 					</div><!-- close .col -->
-					
 				</div><!-- close .row -->
 				
 				

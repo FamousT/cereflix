@@ -15,9 +15,11 @@
 		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
+		<title>CEREFLIX - Action</title>
 		
-		<title>CEREFLIX - TV Series</title>
 	</head>
 	<body>
 		<div id="sidebar-bg">
@@ -47,7 +49,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -172,7 +174,7 @@
 			<nav id="mobile-navigation-pro">
 			
 				<ul id="mobile-menu-pro">
-	            <li class="current-menu-item">
+	            <li>
 	              <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
 	                TV Series
@@ -190,13 +192,13 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li>
-	              <a href="animation.php">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
-	              </a>
-	            </li>
-	            <li>
+                  New Releases
+                </a>
+              </li>
+	            <li class="current-menu-item">
 	              <a href="action.php">
 						<span class="icon-Clock"></span>
 	                Categories
@@ -224,7 +226,7 @@
 		
 		<nav id="sidebar-nav"><!-- Add class="sticky-sidebar-js" for auto-height sidebar -->
             <ul id="vertical-sidebar-nav" class="sf-menu">
-              <li class="normal-item-pro current-menu-item">
+              <li>
                 <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
                   TV Series
@@ -243,12 +245,12 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="animation.php">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  Animation
+                  New Releases
                 </a>
               </li>
-              <li class="normal-item-pro">
+              <li class="normal-item-pro current-menu-item">
                 <a href="action.php">
 						<span class="icon-Clock"></span>
                   Categories
@@ -261,63 +263,74 @@
 	
 		<main id="col-main">
 		
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		<ul class="dashboard-genres-pro animate slideInDown" style="padding:0px; margin:0px;" >
+				
+				
+				<li class="active">
+					<a href="action.php"><img src="images/genres/action.png" alt="Action" style="height:30px; width:30px;"></a>
+					<h6>Action</h6>
+				</li>
+				<li>
+					<a href="adventure.php"><img src="images/genres/adventure.png" alt="Adventure" style="height:30px; width:30px;"></a>
+					<h6>Adventure</h6>
+				</li>
+				<li>
+					<a href="animation2.php"><img src="images/genres/animation.png" alt="Animation" style="height:30px; width:30px;"></a>
+					<h6>Animation</h6>
+				</li>
+				<li>
+					<a href="comedy.php"><img src="images/genres/comedy.png" alt="Comedy" style="height:30px; width:30px;" ></a>
+					<h6>Comedy</h6>
+				</li>
+				<li>
+					<a href="documentary.php"><img src="images/genres/documentary.png" alt="Documentary" style="height:30px; width:30px;"></a>
+					<h6>Documentary</h6>
+				</li>
+				<li>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="action.php">Action</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="adventure.php">Adventure</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="animation2.php">Animation</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="comedy.php">Comedy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="documentary.php">Documentary</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="drama.php">Drama</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="fantasy.php">Fantasy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="horror.php">Horror</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="romance.php">Romance</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="thriller.php">Thrillers</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="sci_fi.php">Sci-fi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="western.php">Western</a>
-      </li>
+					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama" style="height:30px; width:30px;" ></a>
+					<h6>Drama</h6>
+				</li>
+				<li>
+					<a href="fantasy.php"><img src="images/genres/fantasy.png" alt="Fantasy" style="height:30px; width:30px;"></a>
+					<h6>Fantasy</h6>
+				</li>
+				<li>
+					<a href="horror.php"><img src="images/genres/horror.png" alt="Horror" style="height:30px; width:30px;"></a>
+					<h6>Horror</h6>
+				</li>
+				<li>
+					<a href="romance.php"><img src="images/genres/romance.png" alt="Romance" style="height:30px; width:30px;"></a>
+					<h6>Romance</h6>
+				</li>				
+				<li>
+					<a href="sci_fi.php"><img src="images/genres/sci-fi.png" alt="Sci-Fi" style="height:30px; width:30px;"></a>
+					<h6>Sci-Fi</h6>
+				</li>
+				<li>
+					<a href="thriller.php"><img src="images/genres/thriller.png" alt="Thriller" style="height:30px; width:30px;"></a>
+					<h6>Thriller</h6>
+				</li>
+				<li>
+					<a href="western.php"><img src="images/genres/western.png" alt="Western" style="height:30px; width:30px;"></a>
+					<h6>Western</h6>
+				</li>
+				
+				
+			</ul>
+			
+			
+			<div class="clearfix"></div>
 
-    </ul>
-  </div>
-</nav>
-		
-		<div class="dashboard-container">
-		
-			<br><h4 class="heading-extra-margin-bottom">Action</h4>
+			<br><div class="dashboard-container animate slideInUp">
+				<h5 class="heading-extra-margin-bottom">Action</h5>
+
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3"><img src="images/papa_ajasco3.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/madam_joy.jpg" alt="Listing" style="height:200px; width:400px;" ></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1kTtntHDEmhfYmXWzbJYuyjmLI4Kq4ZM3">Papa Ajasco</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV">Madam Joy</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -337,9 +350,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1mNmStEhwzKFHxOEnTaL7nQwNvB64nHif/view?usp=sharing"><img src="images/super_story3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1PXFRdeskrTYIWssIByYcsKd019RVh5W5/view?usp=sharing"><img src="images/things_apart.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Super Story</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Things fall Apart</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -360,9 +373,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1VsqiiVx2P8FmAbi1qFDV1HRHP-5c41xv"><img src="images/millionaire.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1NXN8SH3Z4-bdH5d-qJxKrFfoJFNYSkiM"><img src="images/figurine.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Who wants to be a Millionaire</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">figurine</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -382,9 +395,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1H2A3UFDXn2dLlnooYUjcGO6F7UbH6r8E"><img src="images/ultimate_search.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1d9spqIz6OXk9R5AC_7tMvOmPa3BUjB9V"><img src="images/saworoide.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Gulder the Ultimate Search</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Saworoide</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -405,9 +418,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1CNnhv51OTFyoS_2EJen7QLcpKBQ0Ot-x"><img src="images/jenifer.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1LHSULBae4fy31vtul0KaHGIXI4VzcveQ"><img src="images/blood_money.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Jennifer's Diary</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Blood Money</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -427,9 +440,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1jrNqUhaPCxIa9yt4ovQT7MtX-53WAKdU/view?usp=sharing"><img src="images/tales3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1ZXWvKlQfH1p8FR_rjunHp_YIcwxjk2OF"><img src="images/koto_aye.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Tales by Moonlight</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Koto Aye</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -450,9 +463,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=13fj4Rw4PnBrnKtz3nRUjk6G0zVV5cjNU"><img src="images/the_masquerade.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1uwPNPrCA0or44JKTQdy-QN2p7utiL07m"><img src="images/agbara_nla.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">the_masquerade</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Agbara Nla (A.K.A AYAMATANGA)</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -472,9 +485,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/14xGwVE3ZxKd7aucl4r19HItuC1XrHnQ6/view?usp=sharing"><img src="images/everyday_people.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><img src="images/living.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Everyday People</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Living in Bondage</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -494,9 +507,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1XDFROR4HicDI6FG8WV-HqD2T8qllg5iV"><img src="images/village_headmaster.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1hv8wWRQoqo-6Bi6c7lU4mlx90qfsQs9Z"><img src="images/lagos_benin.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Village Headmaster</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Lagos to Benin</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -516,9 +529,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1uCcEVsh58B50q2RExriwOjGnv5z5X0J7/view?usp=sharing"><img src="images/fuji2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=14Oy0uKkXaMcnt37K8CylJOPnVqpmWAA5"><img src="images/sikiratu_sindodo.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Fuji House of Commotion</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Sikiratu Sindodo</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.6"
@@ -539,9 +552,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/file/d/1fLvYCkxBYVuJWk7RoAhncfkptfDfFQHI/view?usp=sharing"><img src="images/wille_wille2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1dc2SkWx7CUM2U26o1R99urowoJzH3dOV"><img src="images/akin_pawpaw4.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Willie Willie</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="dashboard-movie-profile.html">Junior Boys</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -561,9 +574,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq"><img src="images/nnenna.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX"><img src="images/take_heed.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1BT13oxmCOfjFd_suHv8csss0AQHqtJVq">Nnenna and Friends</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1Di94MBt--kh0AhIVEltucKCnBbLbiyqX">Take Heed</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.72"
@@ -616,6 +629,22 @@
 		<script src="js/script-dashboard.js" defer></script><!-- Custom Document Ready for Dashboard Only JS -->
 		
 		
+		<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
 		
 	</body>
 </html>
+
+			

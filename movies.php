@@ -10,7 +10,8 @@
 		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
 		<title>CEREFLIX - Media Streaming App</title>
 	</head>
@@ -42,7 +43,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -185,12 +186,12 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li>
-	              <a href="animation.php">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
-	              </a>
-	            </li>
+                  New Releases
+                </a>
+              </li>
 	            <li>
 	              <a href="action.php">
 						<span class="icon-Clock"></span>
@@ -238,9 +239,9 @@
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="animation.php">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  Animation
+                  New Releases
                 </a>
               </li>
               <li class="normal-item-pro">
@@ -256,7 +257,7 @@
 	
 		<main id="col-main">
 			
-		<div class="container">
+		<div class="container animated zoomInDown">
 
 		 <div id="demo" class="carousel slide" data-ride="carousel">
 		  <ul class="carousel-indicators">
@@ -265,19 +266,17 @@
 		  </ul>
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
-			  <a href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><img src="images/lion_heart.jpg" width="1100" height="500"></a>
+			  <a href="https://drive.google.com/file/d/1BMmbgPwpQg4lagv9acl7k-ZtKzMPqHWJ/view?usp=sharing"><img src="images/lion_heart.jpg" style="width:1100px; height:485px"></a>
 			  <div class="carousel-caption" style="margin-bottom:10px;">
-			  <a class="progression" href="https://drive.google.com/open?id=1m-XFZV-DbpbTBvYOCeKaNlbxDoGXtN-7"><i class="fas fa-play"></i></a>
+			  <a class="progression" href="https://drive.google.com/file/d/1BMmbgPwpQg4lagv9acl7k-ZtKzMPqHWJ/view?usp=sharing"><i class="fas fa-play"></i></a>
 				<p><font color="white"> <font size= "14">Lion Heart</font></font></p>
-				<p>Lionheart is a 2018 Nigerian drama film produced by Chinny Onwugbenu and directed by Genevieve Nnaji. It stars Pete Edochie, Genevieve Nnaji, and Nkem Owoh. It was acquired by Netflix on 7 September 2018, making it the first Netflix original film produced in Nigeria.</p>
+				<p>Lionheart is a 2018 Nigerian drama film produced by Chinny Onwugbenu and directed by Genevieve Nnaji. It stars Pete Edochie, Genevieve Nnaji, and Nkem Owoh.</p>
 			  </div>   
 			</div>
 			<div class="carousel-item">
-			  <a href="https://drive.google.com/open?id=15h-ZDcA4-RphX-xYGtEkEDyv7hsGtgWn"><img src="images/lion_heart3.jpg" width="1100" height="500"></a>
+			  <a href="https://drive.google.com/open?id=15h-ZDcA4-RphX-xYGtEkEDyv7hsGtgWn"><img src="images/wedding_party2.jpg" style="width:1100px; height:485px"></a>
 			  <div class="carousel-caption" style="margin-bottom:10px";>
 				<a class="progression" href="https://drive.google.com/open?id=15h-ZDcA4-RphX-xYGtEkEDyv7hsGtgWn"><i class="fas fa-play"></i></a>
-				<p><font color="white"> <font size= "14">Lion Heart</font></font></p>
-				<p>Lionheart is a 2018 Nigerian drama film produced by Chinny Onwugbenu and directed by Genevieve Nnaji. It stars Pete Edochie, Genevieve Nnaji, and Nkem Owoh. It was acquired by Netflix on 7 September 2018, making it the first Netflix original film produced in Nigeria.</p>
 			  </div>  
 			</div>
 		  </div>
@@ -290,7 +289,7 @@
 		</div>
 		</div>
 			<ul class="dashboard-genres-pro">
-<li>
+				<li>
 					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama"></a>
 					<h6>Drama</h6>
 				</li>
@@ -343,7 +342,6 @@
 			<div class="clearfix"></div>
 			
 			<div class="dashboard-container">
-				
 				<h4 class="heading-extra-margin-bottom">Movies</h4>
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">

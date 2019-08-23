@@ -12,12 +12,12 @@ if (isset($_POST['login'])){
 		
 	if(empty($user_name)){
 		array_push($errors, "Username is required");
-		header('location:index.php?login=.php');
+		header('location:index.php');
 
 	}
 	if(empty($password)){
 		array_push($errors, "Password is required");
-		header('location: index.php?login=.php');
+		header('location: index.php');
 
 	}
 
@@ -27,20 +27,20 @@ if (isset($_POST['login'])){
 
 				//log user in
 
-				header('location: animation.php');
+				header('location: animation2.php');
 				$_SESSION['user_name']=$user_name;
 
 		}
 		else{
+			header('location: index.php');
 			echo "incorrect login credential";
-			header('location: index.php?login=.php');
 
 		}
 			}
 		
 		else{
 			array_push($errors, "wrong username/password combination");
- 				header('location: index.php?login=.php');
+ 				header('location: index.php');
 
 		}
 	}			

@@ -42,7 +42,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">New Arrivals
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -168,31 +168,31 @@
 			
 				<ul id="mobile-menu-pro">
 	            <li>
-	              <a href="dashboard-home.html">
+	              <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
 	                TV Series
 	              </a>
 	            <li>
 	            <li>
-	              <a href="dashboard-movies.html">
+	              <a href="movies.php">
 						<span class="icon-Reel"></span>
 	                Movies
 	              </a>
 	            </li>
 	            <li>
-	              <a href="dashboard-playlists.html">
+	              <a href="playlists.php">
 						<span class="icon-Movie"></span>
 	                Playlists
 	              </a>
 	            </li>
-	            <li>
-	              <a href="dashboard-new-arrivals.html">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                New Arrivals
-	              </a>
-	            </li>
+                  New Releases
+                </a>
+              </li>
 	            <li>
-	              <a href="dashboard-coming-soon.html">
+	              <a href="#">
 						<span class="icon-Clock"></span>
 	                Coming Soon
 	              </a>
@@ -220,27 +220,27 @@
 		<nav id="sidebar-nav"><!-- Add class="sticky-sidebar-js" for auto-height sidebar -->
             <ul id="vertical-sidebar-nav" class="sf-menu">
               <li class="normal-item-pro">
-                <a href="dashboard-home.html">
+                <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
                   TV Series
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="dashboard-movies.html">
+                <a href="movies.php">
 						<span class="icon-Reel"></span>
                   Movies
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="dashboard-playlists.html">
+                <a href="playlists.php">
 						<span class="icon-Movie"></span>
                   Playlists
                 </a>
               </li>
               <li class="normal-item-pro">
-                <a href="dashboard-new-arrivals.html">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-                  New Arrivals
+                  New Releases
                 </a>
               </li>
               <li class="normal-item-pro">

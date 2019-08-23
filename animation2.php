@@ -8,13 +8,20 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:300,400,600,700">
 		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
 		<link rel="stylesheet" href="icons/fontawesome/css/fontawesome-all.min.css"><!-- FontAwesome Icons -->
 		<link rel="stylesheet" href="icons/Iconsmind__Ultimate_Pack/Line%20icons/styles.min.css"><!-- iconsmind.com Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+
 		
 		<title>CEREFLIX - Animation</title>
+		
 	</head>
 	<body>
-
 		<div id="sidebar-bg">
 			
       <header id="videohead-pro" class="sticky-header">
@@ -42,7 +49,7 @@
 										</label>
 									</div><!-- close .col -->
 									<div class="col">
-										<label class="checkbox-pro-container">Animation
+										<label class="checkbox-pro-container">New Releases
 										  <input type="checkbox" id="movie-type">
 										  <span class="checkmark-pro"></span>
 										</label>
@@ -129,7 +136,7 @@
 			<div id="header-user-profile">
 				<div id="header-user-profile-click" class="noselect">
 					<img src="images/demo/user-profile.jpg" alt="Suzie">
-					<div id="header-username">Suzie Smith</div><i class="fas fa-angle-down"></i>
+					<div id="header-username"></div><i class="fas fa-angle-down"></i>
 				</div><!-- close #header-user-profile-click -->
 				<div id="header-user-profile-menu">
 					<ul>
@@ -185,13 +192,13 @@
 	                Playlists
 	              </a>
 	            </li>
-	            <li class="current-menu-item">
-	              <a href="animation.php">
+	            <li class="normal-item-pro">
+                <a href="new_releases.php">
 						<span class="icon-Movie-Ticket"></span>
-	                Animation
-	              </a>
-	            </li>
-	            <li>
+                  New Releases
+                </a>
+              </li>
+	            <li class="current-menu-item">
 	              <a href="action.php">
 						<span class="icon-Clock"></span>
 	                Categories
@@ -219,21 +226,13 @@
 		
 		<nav id="sidebar-nav"><!-- Add class="sticky-sidebar-js" for auto-height sidebar -->
             <ul id="vertical-sidebar-nav" class="sf-menu">
-             
-			<li class="normal-item-pro current-menu-item">
-                <a href="animation.php">
-						<span class="icon-Movie-Ticket"></span>
-                  Animation
-                </a>
-            </li>
-			
-			 <li class="normal-item-pro">
+              <li>
                 <a href="tv_series.php">
 						<span class="icon-Old-TV"></span>
                   TV Series
                 </a>
               </li>
-              <li class="normal-item-pro">
+              <li class="movies">
                 <a href="movies.php">
 						<span class="icon-Reel"></span>
                   Movies
@@ -245,11 +244,16 @@
                   Playlists
                 </a>
               </li>
-              
               <li class="normal-item-pro">
+                <a href="new_releases.php">
+						<span class="icon-Movie-Ticket"></span>
+                  New Releases
+                </a>
+              </li>
+              <li class="normal-item-pro current-menu-item">
                 <a href="action.php">
 						<span class="icon-Clock"></span>
-                  Categories
+                  Categoriess
                 </a>
               </li>
 
@@ -258,59 +262,69 @@
 		</nav>
 	
 		<main id="col-main">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		
+		<ul class="dashboard-genres-pro animate slideInDown" style="padding:0px; margin:0px;" >
+				
+				
+				<li>
+					<a href="action.php"><img src="images/genres/action.png" alt="Action" style="height:30px; width:30px;"></a>
+					<h6>Action</h6>
+				</li>
+				<li>
+					<a href="adventure.php"><img src="images/genres/adventure.png" alt="Adventure" style="height:30px; width:30px;"></a>
+					<h6>Adventure</h6>
+				</li>
+				<li class="active">
+					<a href="animation2.php"><img src="images/genres/animation.png" alt="Animation" style="height:30px; width:30px;"></a>
+					<h6>Animation</h6>
+				</li>
+				<li>
+					<a href="comedy.php"><img src="images/genres/comedy.png" alt="Comedy" style="height:30px; width:30px;" ></a>
+					<h6>Comedy</h6>
+				</li>
+				<li>
+					<a href="documentary.php"><img src="images/genres/documentary.png" alt="Documentary" style="height:30px; width:30px;"></a>
+					<h6>Documentary</h6>
+				</li>
+				<li>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="action.php">Action</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="adventure.php">Adventure</a>
-      </li>
-	  <li class="nav-item active ">
-        <a class="nav-link" href="animation2.php">Animation</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="comedy.php">Comedy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="documentary.php">Documentary</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="drama.php">Drama</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="fantasy.php">Fantasy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="horror.php">Horror</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="romance.php">Romance</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="thriller.php">Thrillers</a>
-      </li>
-	  <li class="nav-item ">
-        <a class="nav-link" href="sci_fi.php">Sci-fi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="western.php">Western</a>
-      </li>
-
-    </ul>
-  </div>
-</nav>
+					<a href="drama.php"><img src="images/genres/drama.png" alt="Drama" style="height:30px; width:30px;" ></a>
+					<h6>Drama</h6>
+				</li>
+				<li>
+					<a href="fantasy.php"><img src="images/genres/fantasy.png" alt="Fantasy" style="height:30px; width:30px;"></a>
+					<h6>Fantasy</h6>
+				</li>
+				<li>
+					<a href="horror.php"><img src="images/genres/horror.png" alt="Horror" style="height:30px; width:30px;"></a>
+					<h6>Horror</h6>
+				</li>
+				<li>
+					<a href="romance.php"><img src="images/genres/romance.png" alt="Romance" style="height:30px; width:30px;"></a>
+					<h6>Romance</h6>
+				</li>				
+				<li>
+					<a href="sci_fi.php"><img src="images/genres/sci-fi.png" alt="Sci-Fi" style="height:30px; width:30px;"></a>
+					<h6>Sci-Fi</h6>
+				</li>
+				<li>
+					<a href="thriller.php"><img src="images/genres/thriller.png" alt="Thriller" style="height:30px; width:30px;"></a>
+					<h6>Thriller</h6>
+				</li>
+				<li>
+					<a href="western.php"><img src="images/genres/western.png" alt="Western" style="height:30px; width:30px;"></a>
+					<h6>Western</h6>
+				</li>
+				
+				
+			</ul>
+			
 			
 			<div class="clearfix"></div>
-			
-			<div class="dashboard-container">
+
+			<br><div class="dashboard-container animate slideInUp">
 				
-			<br><h4 class="heading-extra-margin-bottom">Animation</h4>
+			<h4 class="heading-extra-margin-bottom">Animation</h4>
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
@@ -336,7 +350,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1cM73YLSlcnBcX-ibjMM4E4ToyeIB6rlM"><img src="images/monsters.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1cM73YLSlcnBcX-ibjMM4E4ToyeIB6rlM"><img src="images/monsters2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1cM73YLSlcnBcX-ibjMM4E4ToyeIB6rlM">Monster and Aliens</a></h6>
 							      <div
@@ -359,9 +373,9 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=116gYzTy9uuIfjBcPYNCARcqvye1LCWhT"><img src="images/panda.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/file/d/1q-is9B1WGyZz3cKk29JN9pd1vh5wJJLH/view?usp=sharing"><img src="images/panda3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
-								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=116gYzTy9uuIfjBcPYNCARcqvye1LCWhT">Kung fu Panda</a></h6>
+								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/file/d/1q-is9B1WGyZz3cKk29JN9pd1vh5wJJLH/view?usp=sharing">Kung fu Panda</a></h6>
 							      <div
 							        class="circle-rating-pro"
 							        data-value="0.86"
@@ -381,7 +395,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1y3S0puCesWFyhqOynvTcnSlUPPj5Uwzn"><img src="images/justice_league.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1y3S0puCesWFyhqOynvTcnSlUPPj5Uwzn"><img src="images/justice2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1y3S0puCesWFyhqOynvTcnSlUPPj5Uwzn">Justice League</a></h6>
 							      <div
@@ -404,7 +418,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7"><img src="images/avengers.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7"><img src="images/avengers2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1l_oZup-TrlzcDOCC9RsoMWHSIIdC9CI7">Avengers</a></h6>
 							      <div
@@ -426,7 +440,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1s9HCDuspvaYejECaE7zPUgFo6HP0Lf-S"><img src="images/avatar2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1s9HCDuspvaYejECaE7zPUgFo6HP0Lf-S"><img src="images/avatar4.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1s9HCDuspvaYejECaE7zPUgFo6HP0Lf-S">Avatar</a></h6>
 							      <div
@@ -449,7 +463,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1_pdpS4hu1GvXQ2gkqx6GAEzAfevYwMDO"><img src="images/lion_king.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1_pdpS4hu1GvXQ2gkqx6GAEzAfevYwMDO"><img src="images/lion_king2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1_pdpS4hu1GvXQ2gkqx6GAEzAfevYwMDO">The Lion King</a></h6>
 							      <div
@@ -471,7 +485,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=19BZWPyj-wkbq-saZHijctuIkdzi0GEq9"><img src="images/xmen.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=19BZWPyj-wkbq-saZHijctuIkdzi0GEq9"><img src="images/xmen2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=19BZWPyj-wkbq-saZHijctuIkdzi0GEq9">X-Men</a></h6>
 							      <div
@@ -493,7 +507,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1Uv7fteDaTPcCmjwmdF5CpNwzSsHfvORY"><img src="images/hulk.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1Uv7fteDaTPcCmjwmdF5CpNwzSsHfvORY"><img src="images/hulk2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1Uv7fteDaTPcCmjwmdF5CpNwzSsHfvORY">Hulk</a></h6>
 							      <div
@@ -515,7 +529,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M"><img src="images/raid_redemption.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M"><img src="images/raid.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1fA-DivNqo1HPNraf5xt9B7LHH3Zswl-M">Raid Redemption</a></h6>
 							      <div
@@ -560,7 +574,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 col-xl-3">
 						<div class="item-listing-container-skrn">
-							<a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><img src="images/animation3.jpg" alt="Listing" style="height:200px; width:400px;"></a>
+							<a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8"><img src="images/incredible2.jpg" alt="Listing" style="height:200px; width:400px;"></a>
 							<div class="item-listing-text-skrn">
 								<div class="item-listing-text-skrn-vertical-align"><h6><a href="https://drive.google.com/open?id=1C_FcZJaICfZdTg05CwzkKfFGOd_gmIL8">The Incredible</a></h6>
 							      <div
